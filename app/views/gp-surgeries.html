@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{# CONTENT: placeholder written by agent, needs content design review #}
+{% set pageName = "GP surgeries in " + regionNames %}
+
+{% block beforeContent %}
+  {{ backLink({
+    href: "/regions",
+    text: "Back"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-heading-l">{{ pageName }}</h1>
+
+      {# CONTENT: placeholder written by agent, needs content design review #}
+      <p class="nhsuk-body-l">We found {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}.</p>
+      <p>Showing {{ results.from }} to {{ results.to }} of {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}</p>
+
+      {% for practice in results.items %}
+        {% set addressHtml %}
+          {%- for line in practice.addressLines %}{{ line }}<br>{% endfor -%}
+          {%- if practice.town %}{{ practice.town }}<br>{% endif -%}
+          {{ practice.postcode }}
+        {% endset %}
+
+        {% call card({
+          heading: practice.name,
+          headingLevel: 2,
+          headingClasses: "nhsuk-heading-s",
+          attributes: { "data-test": "surgery" }
+        }) %}
+          {{ summaryList({
+            classes: "nhsuk-summary-list--no-border nhsuk-u-margin-bottom-0",
+            rows: [
+              {
+                key: { text: "ODS code" },
+                value: { html: '<span data-test="ods-code">' + practice.odsCode + '</span>' }
+              },
+              {
+                key: { text: "Address" },
+                value: { html: addressHtml }
+              },
+              {
+                key: { text: "Phone" },
+                value: { text: practice.phone or "Not known" }
+              },
+              {
+                key: { text: "Region" },
+                value: { html: '<span data-test="region">' + practice.regionName + '</span>' }
+              }
+            ]
+          }) }}
+        {% endcall %}
+      {% endfor %}
+
+      {{ pagination(paginationParams) }}
+    </div>
+  </div>
+{% endblock %}

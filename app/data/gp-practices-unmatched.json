@@ -1,0 +1,5455 @@
+[
+  {
+    "odsCode": "W95633",
+    "name": "74 MONK STREET",
+    "addressLines": [
+      "73-74 MONK STREET"
+    ],
+    "town": "ABERDARE",
+    "postcode": "CF44 7PA",
+    "phone": "01685 875906",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00005",
+    "name": "ABER MEDICAL CENTRE",
+    "addressLines": [
+      "MEDDYGFA TRIDWR",
+      "27-29 THOMAS STREET"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 4AU",
+    "phone": "0844 4778635",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95087",
+    "name": "ABERCWMBOI MEDICAL PRACTICE",
+    "addressLines": [
+      "ABERCWMBOI MEDICAL CENTRE",
+      "1-3 JOHN STREET",
+      "ABERCWMBOI"
+    ],
+    "town": "ABERDARE",
+    "postcode": "CF44 6BL",
+    "phone": "01443 473304",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95042",
+    "name": "ABERCYNON MEDICAL CENTRE",
+    "addressLines": [
+      "YNYSMEURIG ROAD",
+      "ABERCYNON"
+    ],
+    "town": "MOUNTAIN ASH",
+    "postcode": "CF45 4YB",
+    "phone": "01443 740447",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98608",
+    "name": "ABERTAWE MEDICAL PARTNERS",
+    "addressLines": [
+      "151 ST. HELENS ROAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 4DF",
+    "phone": "01792 476576",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93075",
+    "name": "ABERTILLERY GROUP",
+    "addressLines": [
+      "THE BRIDGE CENTRE",
+      "FOUNDRY BRIDGE"
+    ],
+    "town": "ABERTILLERY",
+    "postcode": "NP13 1BQ",
+    "phone": "01495 361636",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97057",
+    "name": "ALBERT ROAD SURGERY",
+    "addressLines": [
+      "ALBERT ROAD"
+    ],
+    "town": "PENARTH",
+    "postcode": "CF64 1BX",
+    "phone": "0844 4775191",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91032",
+    "name": "ALLT GOCH MEDICAL CENTRE",
+    "addressLines": [
+      "LON Y BECWS"
+    ],
+    "town": "FLINT",
+    "postcode": "CH6 5UZ",
+    "phone": "01352 732207",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91025",
+    "name": "ALYN FAMILY DOCTORS",
+    "addressLines": [
+      "THE HEALTH CENTRE",
+      "SCHOOL ROAD",
+      "LLAY"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL12 0TR",
+    "phone": "03333 323260",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00142",
+    "name": "AMMAN TAWE PARTNERSHIP",
+    "addressLines": [
+      "1 GRAIG ROAD",
+      "GWAUN CAE GURWEN"
+    ],
+    "town": "AMMANFORD",
+    "postcode": "SA18 1EG",
+    "phone": "01269 822231",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00143",
+    "name": "AMMAN TAWE PARTNERSHIP",
+    "addressLines": [
+      "4 GWILYM ROAD",
+      "CWMLLYNFELL"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA9 2GH",
+    "phone": "01639 830204",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00067",
+    "name": "ARGYLE MEDICAL GROUP",
+    "addressLines": [
+      "ARGYLE STREET"
+    ],
+    "town": "PEMBROKE DOCK",
+    "postcode": "SA72 6HL",
+    "phone": "01646 624198",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00133",
+    "name": "ASH GROVE MEDICAL CENTRE",
+    "addressLines": [
+      "THOMAS STREET"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 3JH",
+    "phone": "01554 780900",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92065",
+    "name": "ASHLEIGH SURGERY",
+    "addressLines": [
+      "NAPIER STREET"
+    ],
+    "town": "CARDIGAN",
+    "postcode": "SA43 1ED",
+    "phone": "01239 621227",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92037",
+    "name": "AVENUE VILLA SURGERY",
+    "addressLines": [
+      "BRYNMOR ROAD"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 2TJ",
+    "phone": "01554 774401",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92008",
+    "name": "BARLOW HOUSE SURGERY",
+    "addressLines": [
+      "MANCHESTER SQUARE HEALTH CENTRE",
+      "MANCHESTER SQUARE"
+    ],
+    "town": "MILFORD HAVEN",
+    "postcode": "SA73 2JW",
+    "phone": "01646 690674",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91033",
+    "name": "BEECH HOUSE SURGERY",
+    "addressLines": [
+      "69 VALE STREET"
+    ],
+    "town": "DENBIGH",
+    "postcode": "LL16 3AY",
+    "phone": "01745 812863",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93053",
+    "name": "BEECHWOOD SURGERY",
+    "addressLines": [
+      "BEECHWOOD PRIMARY CARE",
+      "371-373 CHEPSTOW ROAD"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 8HL",
+    "phone": "01633 277771",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93048",
+    "name": "BELLEVUE SURGERY",
+    "addressLines": [
+      "BELLE VUE TERRACE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 2WQ",
+    "phone": "01633 256337",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91624",
+    "name": "BERLLAN SURGERY",
+    "addressLines": [
+      "24 ABBEY ROAD"
+    ],
+    "town": "DENBIGH",
+    "postcode": "LL16 3DL",
+    "phone": "01745 812689",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97021",
+    "name": "BIRCHGROVE SURGERY",
+    "addressLines": [
+      "CAERPHILLY ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 4QJ",
+    "phone": "029 20522344",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97028",
+    "name": "BISHOPS ROAD MEDICAL CENTRE",
+    "addressLines": [
+      "1 BISHOPS ROAD",
+      "WHITCHURCH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 1LT",
+    "phone": "029 20522455",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93011",
+    "name": "BLACKWOOD MEDICAL GROUP",
+    "addressLines": [
+      "AVICENNA MEDICAL CENTRE",
+      "PONTLLANFRAITH BLACKWOOD"
+    ],
+    "town": "BLACKWOOD",
+    "postcode": "NP12 2YU",
+    "phone": "01495 227156",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93068",
+    "name": "BLAEN-Y-CWM GROUP PRACTICE",
+    "addressLines": [
+      "BLAENAVON ROAD",
+      "BRYNMAWR"
+    ],
+    "town": "EBBW VALE",
+    "postcode": "NP23 4BR",
+    "phone": "01495 360682",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93015",
+    "name": "BLAENAVON MEDICAL PRACTICE",
+    "addressLines": [
+      "MIDDLE COEDCAE ROAD",
+      "BLAENAVON"
+    ],
+    "town": "PONTYPOOL",
+    "postcode": "NP4 9AW",
+    "phone": "01495 360663",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93115",
+    "name": "BLAINA MEDICAL PRACTICE",
+    "addressLines": [
+      "REAR OF HIGH STREET",
+      "BLAINA"
+    ],
+    "town": "ABERTILLERY",
+    "postcode": "NP13 3AT",
+    "phone": "01495 290325",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94010",
+    "name": "BODNANT SURGERY",
+    "addressLines": [
+      "MENAI AVENUE"
+    ],
+    "town": "BANGOR",
+    "postcode": "LL57 2HH",
+    "phone": "01248 364492",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91029",
+    "name": "BODOWEN SURGERY",
+    "addressLines": [
+      "HALKYN ROAD"
+    ],
+    "town": "HOLYWELL",
+    "postcode": "CH8 7GA",
+    "phone": "01352 710529",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94031",
+    "name": "BODREINALLT",
+    "addressLines": [
+      "BODREINALLT SURGERY",
+      "CASTLE STREET"
+    ],
+    "town": "CONWY",
+    "postcode": "LL32 8AT",
+    "phone": "01492 593385",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91054",
+    "name": "BORRAS PARK SURGERY",
+    "addressLines": [
+      "BORRAS PARK ROAD"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL12 7TH",
+    "phone": "0844 4778601",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92006",
+    "name": "BORTH SURGERY",
+    "addressLines": [
+      "HIGH STREET"
+    ],
+    "town": "BORTH",
+    "postcode": "SY24 5JE",
+    "phone": "01970 871475",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00076",
+    "name": "BRADLEY'S PRACTICE",
+    "addressLines": [
+      "BUCKLEY MEDICAL CENTRE",
+      "ALLTAMI ROAD"
+    ],
+    "town": "BUCKLEY",
+    "postcode": "CH7 3PG",
+    "phone": "0345 9007851",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00200",
+    "name": "BRAWDY MEDICAL FACILITY",
+    "addressLines": [
+      "BRAWDY"
+    ],
+    "town": "HAVERFORDWEST",
+    "postcode": "SA62 6NN",
+    "phone": "01437 725890",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00199",
+    "name": "BRECON MEDICAL FACILITY",
+    "addressLines": [
+      "DERING LINES"
+    ],
+    "town": "BRECON",
+    "postcode": "LD3 7RA",
+    "phone": "01874 613554",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95070",
+    "name": "BRIDGEND GROUP",
+    "addressLines": [
+      "BRIDGEND HEALTH & WELLBEING CENTRE",
+      "ANGEL STREET"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF31 4AH",
+    "phone": "01656 652774",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92039",
+    "name": "BRO PEDR MEDICAL GROUP",
+    "addressLines": [
+      "TALIESYN SURGERY",
+      "TALIESYN COURT"
+    ],
+    "town": "LAMPETER",
+    "postcode": "SA48 7AA",
+    "phone": "01570 422665",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94034",
+    "name": "BRON DERW MEDICAL CENTRE",
+    "addressLines": [
+      "GLYNNE ROAD"
+    ],
+    "town": "BANGOR",
+    "postcode": "LL57 1AH",
+    "phone": "01248 370900",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95064",
+    "name": "BRON-Y-GARN SURGERY",
+    "addressLines": [
+      "MAESTEG GENERAL HOSPITAL",
+      "NEATH ROAD"
+    ],
+    "town": "MAESTEG",
+    "postcode": "CF34 9PW",
+    "phone": "01656 754200",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94032",
+    "name": "BRONMEIRION",
+    "addressLines": [
+      "CASTLE STREET"
+    ],
+    "town": "PENRHYNDEUDRAETH",
+    "postcode": "LL48 6AL",
+    "phone": "0844 4772493",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91027",
+    "name": "BRONYFFYNNON SURGERY",
+    "addressLines": [
+      "24 BRIDGE STREET"
+    ],
+    "town": "DENBIGH",
+    "postcode": "LL16 3TF",
+    "phone": "01745 814422",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95634",
+    "name": "BROOKSIDE MEDICAL CENTRE",
+    "addressLines": [
+      "HEOL AFON TAF",
+      "TROEDYRHIW"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 4DT",
+    "phone": "01443 693249",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98024",
+    "name": "BRUNSWICK HEALTH CENTRE",
+    "addressLines": [
+      "PHILLIPS PARADE"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 4JL",
+    "phone": "01792 643001",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91016",
+    "name": "BRYN DARLAND SURGERY",
+    "addressLines": [
+      "53 HIGH STREET",
+      "COEDPOETH"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 3SA",
+    "phone": "01978 720285",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91042",
+    "name": "BRYNCABANAU",
+    "addressLines": [
+      "BEECHLEY MEDICAL CENTRE",
+      "FUSILIER WAY"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 7YF",
+    "phone": "01978 367921",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97006",
+    "name": "BRYNDERWEN SURGERY",
+    "addressLines": [
+      "CRICKHOWELL ROAD",
+      "ST MELLONS"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF3 0EF",
+    "phone": "029 20799921",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93046",
+    "name": "BRYNGWYN SURGERY",
+    "addressLines": [
+      "4-6 BRYNGWYN ROAD"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 4JS",
+    "phone": "01633 263463",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98004",
+    "name": "BRYNHYFRYD MEDICAL CENTRE",
+    "addressLines": [
+      "499 LLANGYFELACH ROAD",
+      "BRYNHYFRYD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA5 9EA",
+    "phone": "01792 532185",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92036",
+    "name": "BRYNTEG SURGERY",
+    "addressLines": [
+      "BRYNMAWR AVENUE"
+    ],
+    "town": "AMMANFORD",
+    "postcode": "SA18 2DA",
+    "phone": "01269 592058",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95068",
+    "name": "BRYNTIRION SURGERY",
+    "addressLines": [
+      "WEST STREET"
+    ],
+    "town": "BARGOED",
+    "postcode": "CF81 8SA",
+    "phone": "01443 830796",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97291",
+    "name": "BUTETOWN MEDICAL PRACTICE",
+    "addressLines": [
+      "LOUDOUN",
+      "PLAS IONA"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF10 5HW",
+    "phone": "029 20483126",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91007",
+    "name": "CADWGAN SURGERY",
+    "addressLines": [
+      "11 BODELWYDDAN AVENUE",
+      "OLD COLWYN"
+    ],
+    "town": "COLWYN BAY",
+    "postcode": "LL29 9NP",
+    "phone": "01492 515787",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96009",
+    "name": "CAEREINION MEDICAL PRACTICE",
+    "addressLines": [
+      "LLANFAIR CAEREINION"
+    ],
+    "town": "WELSHPOOL",
+    "postcode": "SY21 0RT",
+    "phone": "01938 810279",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91610",
+    "name": "CAERGWRLE MEDICAL PRACTICE",
+    "addressLines": [
+      "39-41 HIGH STREET",
+      "CAERGWRLE"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL12 9LG",
+    "phone": "01978 760413",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91629",
+    "name": "CAIA PARK SURGERY",
+    "addressLines": [
+      "PRINCE CHARLES ROAD"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 8TH",
+    "phone": "01978 291129",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94028",
+    "name": "CANOLFAN FEDDYGOL YR HEN",
+    "addressLines": [
+      "STATION ROAD",
+      "BETHESDA"
+    ],
+    "town": "BANGOR",
+    "postcode": "LL57 3NE",
+    "phone": "01248 600212",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91010",
+    "name": "CANOLFAN IECHYD",
+    "addressLines": [
+      "LLANGOLLEN HEALTH CENTRE",
+      "BISHOPS WALK"
+    ],
+    "town": "LLANGOLLEN",
+    "postcode": "LL20 8RZ",
+    "phone": "01978 860625",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94002",
+    "name": "CANOLFAN IECHYD AMLWCH",
+    "addressLines": [
+      "PARYS ROAD",
+      "ANGLESEY"
+    ],
+    "town": "AMLWCH",
+    "postcode": "LL68 9AB",
+    "phone": "01407 830235",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97044",
+    "name": "CARDIFF BAY SURGERY",
+    "addressLines": [
+      "45 CAMBRIDGE STREET",
+      "GRANGETOWN"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 7DJ",
+    "phone": "02920 099378",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00100",
+    "name": "CARDIFF HEALTH ACCESS PRACTICE",
+    "addressLines": [
+      "CARDIFF AND VALE HIS",
+      "CARDIFF ROYAL INFIRMARY"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 0SZ",
+    "phone": "02921 835449",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92044",
+    "name": "CARDIGAN HEALTH CENTRE",
+    "addressLines": [
+      "CARDIGAN INTERGRATED CARE",
+      "RHODFA'R FELIN"
+    ],
+    "town": "CARDIGAN",
+    "postcode": "SA43 1JX",
+    "phone": "01239 612021",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00007",
+    "name": "CARITAS SURGERY",
+    "addressLines": [
+      "THE HEALTH CENTRE SMITHY",
+      "COEDPOETH"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 3NS",
+    "phone": "01978 720450",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93036",
+    "name": "CASTLE GATE MEDICAL PRACTICE",
+    "addressLines": [
+      "REAR OF MONNOW STREET"
+    ],
+    "town": "MONMOUTH",
+    "postcode": "NP25 3EQ",
+    "phone": "01600 713811",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98006",
+    "name": "CASTLE SURGERY",
+    "addressLines": [
+      "1 PRINCE OF WALES DRIVE"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 3EW",
+    "phone": "016396 22050",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97009",
+    "name": "CATHAYS SURGERY",
+    "addressLines": [
+      "137 CATHAYS TERRACE"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 4HU",
+    "phone": "029 20353020",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98612",
+    "name": "CHERITON MEDICAL CENTRE",
+    "addressLines": [
+      "CHERITON CRESCENT",
+      "PORTMEAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA5 5LA",
+    "phone": "01792 561122",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91024",
+    "name": "CHIRK SURGERY",
+    "addressLines": [
+      "CASTLE HEALTH CENTRE",
+      "COLLIERY ROAD",
+      "CHIRK"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL14 5DH",
+    "phone": "01691 772434",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97299",
+    "name": "CLARE ROAD MEDICAL CENTRE",
+    "addressLines": [
+      "148-152 CLARE ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 6RW",
+    "phone": "029 20388081",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91003",
+    "name": "CLARENCE MEDICAL CENTRE",
+    "addressLines": [
+      "WEST RHYL PRIMARY CARE CENTRE",
+      "WEST KINMEL STREET"
+    ],
+    "town": "RHYL",
+    "postcode": "LL18 1DA",
+    "phone": "01745 350680",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93028",
+    "name": "CLARK AVENUE SURGERY",
+    "addressLines": [
+      "CLARK AVENUE",
+      "PONTNEWYDD"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 1RY",
+    "phone": "01633 482733",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98039",
+    "name": "CLASE SURGERY",
+    "addressLines": [
+      "GREENHILL MEDICAL CENTRE",
+      "88 MYNYDD GARNLWYD ROAD",
+      "MORRISTON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA6 7NZ",
+    "phone": "01792 412412",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97060",
+    "name": "CLIFTON SURGERY",
+    "addressLines": [
+      "151-153 NEWPORT ROAD",
+      "ROATH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 1AG",
+    "phone": "029 20494539",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97007",
+    "name": "CLOUGHMORE MEDICAL CENTRE",
+    "addressLines": [
+      "19 SOUTH PARK ROAD",
+      "SPLOTT"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 2LU",
+    "phone": "029 20462848",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92007",
+    "name": "COACH & HORSES SURGERY",
+    "addressLines": [
+      "PENTRE ROAD",
+      "ST. CLEARS"
+    ],
+    "town": "CARMARTHEN",
+    "postcode": "SA33 4AA",
+    "phone": "01994 230379",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92046",
+    "name": "COALBROOK SURGERY",
+    "addressLines": [
+      "COALBROOK ROAD",
+      "PONTYBEREM"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 5HU",
+    "phone": "01269 506960",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94029",
+    "name": "COED Y GLYN SURGERY",
+    "addressLines": [
+      "COED Y GLYN",
+      "CHURCH STREET"
+    ],
+    "town": "LLANGEFNI",
+    "postcode": "LL77 7DU",
+    "phone": "01248 722229",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94609",
+    "name": "CORWEN HOUSE",
+    "addressLines": [
+      "MARKET PLACE",
+      "PENYGROES"
+    ],
+    "town": "CAERNARFON",
+    "postcode": "LL54 6NN",
+    "phone": "01286 880336",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95059",
+    "name": "COURT HOUSE MEDICAL CENTRE",
+    "addressLines": [
+      "HEOL BRO WEN"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 3GH",
+    "phone": "029 20887316",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97058",
+    "name": "COURT ROAD SURGERY",
+    "addressLines": [
+      "29 COURT ROAD"
+    ],
+    "town": "BARRY",
+    "postcode": "CF63 4YD",
+    "phone": "01446 733181",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97038",
+    "name": "COWBRIDGE & VALE MEDICAL PRACTICE",
+    "addressLines": [
+      "COWBRIDGE HEALTH CENTRE",
+      "THE BROADSHOARD"
+    ],
+    "town": "COWBRIDGE",
+    "postcode": "CF71 7DA",
+    "phone": "01446 772237",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94019",
+    "name": "CRAIG Y DON MEDICAL PRACTICE",
+    "addressLines": [
+      "CLARENCE ROAD",
+      "CRAIG Y DON"
+    ],
+    "town": "LLANDUDNO",
+    "postcode": "LL30 1TA",
+    "phone": "01492 864540",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91614",
+    "name": "CRANE MEDICAL CENTRE",
+    "addressLines": [
+      "CRANE STREET",
+      "CEFN MAWR"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL14 3AB",
+    "phone": "01978 810844",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97041",
+    "name": "CRWYS MEDICAL CENTRE",
+    "addressLines": [
+      "THE CRWYS SURGERY",
+      "WEDAL ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 3QX",
+    "phone": "029 20524140",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93007",
+    "name": "CWM CALON",
+    "addressLines": [
+      "THE BRIDGE CENTRE",
+      "FOUNDRY BRIDGE"
+    ],
+    "town": "ABERTILLERY",
+    "postcode": "NP13 1BQ",
+    "phone": "01495 533533",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95031",
+    "name": "CWM GARW PRACTICE",
+    "addressLines": [
+      "VICTORIA STREET",
+      "PONTYCYMER"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF32 8NN",
+    "phone": "03033 031029",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95295",
+    "name": "CWM GWYRDD MEDICAL CENTRE",
+    "addressLines": [
+      "HIGH STREET",
+      "GILFACH GOCH"
+    ],
+    "town": "PORTH",
+    "postcode": "CF39 8TJ",
+    "phone": "01443 672209",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93619",
+    "name": "CWM HEALTH CENTRE",
+    "addressLines": [
+      "CANNING STREET",
+      "CWM"
+    ],
+    "town": "EBBW VALE",
+    "postcode": "NP23 7RW",
+    "phone": "01495 370209",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95016",
+    "name": "CWMAMAN SURGERY",
+    "addressLines": [
+      "6-14 GLANAMAN ROAD",
+      "CWMAMAN"
+    ],
+    "town": "ABERDARE",
+    "postcode": "CF44 6HY",
+    "phone": "01685 873002",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98019",
+    "name": "CWMAVON HEALTH CENTRE",
+    "addressLines": [
+      "PENLLYN",
+      "CWMAVON"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA12 9PY",
+    "phone": "01639 871071",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93027",
+    "name": "CWMBRAN VILLAGE SURGERY",
+    "addressLines": [
+      "VICTORIA STREET"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 3JS",
+    "phone": "01633 871177",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98003",
+    "name": "CWMFELIN MEDICAL CENTRE",
+    "addressLines": [
+      "298 CARMARTHEN ROAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 1HW",
+    "phone": "01792 653941",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98022",
+    "name": "CWMTAWE MEDICAL GROUP",
+    "addressLines": [
+      "80 HIGH STREET",
+      "CLYDACH"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA6 5LN",
+    "phone": "01792 843831",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97010",
+    "name": "CYNCOED MEDICAL PRACTICE",
+    "addressLines": [
+      "DARTINGTON DRIVE",
+      "PONTPRENNAU"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF23 8SQ",
+    "phone": "029 20545260",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95027",
+    "name": "DE WINTON FIELD PRACTICE",
+    "addressLines": [
+      "RHONDDA CYNON TAFF"
+    ],
+    "town": "TONYPANDY",
+    "postcode": "CF40 2LE",
+    "phone": "01443 432112",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91026",
+    "name": "DEE VALLEY MEDICAL PRACTICE",
+    "addressLines": [
+      "15 HIGH STREET",
+      "OVERTON"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 0ED",
+    "phone": "01978 710666",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91039",
+    "name": "DEESIDE MEDICAL CENTRE",
+    "addressLines": [
+      "17-21 CHESTER ROAD EAST",
+      "SHOTTON"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 1QA",
+    "phone": "01244 831698",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97055",
+    "name": "DINAS POWYS MEDICAL CENTRE",
+    "addressLines": [
+      "MURCH ROAD"
+    ],
+    "town": "DINAS POWYS",
+    "postcode": "CF64 4RE",
+    "phone": "029 20512293",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93072",
+    "name": "DIXTON ROAD SURGERY",
+    "addressLines": [
+      "NEW DIXTON ROAD"
+    ],
+    "town": "MONMOUTH",
+    "postcode": "NP25 3PL",
+    "phone": "01600 712152",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98007",
+    "name": "DR BENSUSAN & PARTNERS",
+    "addressLines": [
+      "PR2 FFORESTFACH MEDICL CENTRE",
+      "RAVENHILL ROAD",
+      "RAVENHILL"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA5 5AA",
+    "phone": "01792 581666",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98028",
+    "name": "DR POWELL & PARTNERS",
+    "addressLines": [
+      "PR1 FFORESTFACH MEDICAL CENTRE",
+      "RAVENHILL ROAD",
+      "RAVENHILL"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA5 5AA",
+    "phone": "01792 581666",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98030",
+    "name": "DULAIS VALLEY PRIM CARE CENTRE",
+    "addressLines": [
+      "DULAIS VALLEY PRIMARY CARE",
+      "DULAIS ROAD",
+      "SEVEN SISTERS"
+    ],
+    "town": "NEATH",
+    "postcode": "SA10 9EY",
+    "phone": "01639 701660",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95014",
+    "name": "EGLWYSBACH MEDICAL PRACTI",
+    "addressLines": [
+      "BERW ROAD"
+    ],
+    "town": "PONTYPRIDD",
+    "postcode": "CF37 2AA",
+    "phone": "01443 406811",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97040",
+    "name": "ELY BRIDGE SURGERY",
+    "addressLines": [
+      "23 MILL ROAD",
+      "ELY"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF5 4AD",
+    "phone": "029 20561808",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97045",
+    "name": "ERYL SURGERY",
+    "addressLines": [
+      "LLANTWIT MAJOR & COASTAL",
+      "MEDICAL PRACTICE STATION",
+      "STATION ROAD"
+    ],
+    "town": "LLANTWIT MAJOR",
+    "postcode": "CF61 1ST",
+    "phone": "01446 793444",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98012",
+    "name": "ESTUARY GROUP PRACTICE",
+    "addressLines": [
+      "22 MILL STREET",
+      "GOWERTON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA4 3ED",
+    "phone": "01792 872404",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91046",
+    "name": "EYTON PLACE SURGERY",
+    "addressLines": [
+      "FLINT HEALTH & WELLBEING CTR",
+      "EARL STREET"
+    ],
+    "town": "FLINT",
+    "postcode": "CH6 5ER",
+    "phone": "0300 0859500",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98032",
+    "name": "FAIRFIELD MEDICAL CENTRE",
+    "addressLines": [
+      "FAIRFIELD SURGERY",
+      "PORT TALBOT RESOURCE CENTRE",
+      "MOOR ROAD"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA12 7BJ",
+    "phone": "01639 500590",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92021",
+    "name": "FAIRFIELD SURGERY",
+    "addressLines": [
+      "1 PARK CRESCENT"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 3AE",
+    "phone": "01554 773133",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97047",
+    "name": "FAIRWATER HEALTH CENTRE",
+    "addressLines": [
+      "PLASMAWR ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF5 3JT",
+    "phone": "029 20566291",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94027",
+    "name": "FELINHELI&PORTHAETHWY SU",
+    "addressLines": [
+      "ROWEN"
+    ],
+    "town": "Y FELINHELI",
+    "postcode": "LL56 4RX",
+    "phone": "01248 670423",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92015",
+    "name": "FISHGUARD HEALTH CENTRE",
+    "addressLines": [
+      "ROPEWALK"
+    ],
+    "town": "FISHGUARD",
+    "postcode": "SA65 9BT",
+    "phone": "01348 430207",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95054",
+    "name": "FOREST VIEW MEDICAL CENTRE",
+    "addressLines": [
+      "FOREST VIEW HEALTH",
+      "RHONDDA"
+    ],
+    "town": "TREORCHY",
+    "postcode": "CF42 6DL",
+    "phone": "01443 773595",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91020",
+    "name": "FORGE ROAD SURGERY",
+    "addressLines": [
+      "FORGE ROAD",
+      "SOUTHSEA"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 5RR",
+    "phone": "01978 758311",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97048",
+    "name": "FOUR ELMS MEDICAL CENTRE",
+    "addressLines": [
+      "STERLING CLOSE",
+      "FFORDD PENGAM PENGAM GREE",
+      "SPLOTT"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 2HB",
+    "phone": "02920 030540",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92016",
+    "name": "FURNACE HOUSE SURGERY",
+    "addressLines": [
+      "ST. ANDREWS ROAD"
+    ],
+    "town": "CARMARTHEN",
+    "postcode": "SA31 1EX",
+    "phone": "01267 236616",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94023",
+    "name": "GERAFON SURGERY",
+    "addressLines": [
+      "MEDDYGFA GERAFON",
+      "MIN YR AFON",
+      "BENNLLECH"
+    ],
+    "town": "TYN-Y-GONGL",
+    "postcode": "LL74 8TF",
+    "phone": "01248 852122",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93032",
+    "name": "GLAN RHYD SURGERY",
+    "addressLines": [
+      "RIVERSIDE",
+      "BEAUFORT EBBW VALE"
+    ],
+    "town": "EBBW VALE",
+    "postcode": "NP23 5NT",
+    "phone": "01495 301210",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93065",
+    "name": "GLAN YR AFON SURGERY",
+    "addressLines": [
+      "BEVAN HEALTH & WELLBEING CENTRE",
+      "PARK ROW"
+    ],
+    "town": "TREDEGAR",
+    "postcode": "NP22 3NG",
+    "phone": "01495 360486",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94040",
+    "name": "GLANFA",
+    "addressLines": [
+      "ORME ROAD"
+    ],
+    "town": "BANGOR",
+    "postcode": "LL57 1AY",
+    "phone": "01248 370540",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96011",
+    "name": "GLANTWYMYN HEALTH CENTRE",
+    "addressLines": [
+      "IECHYD BRO DDYFI-DYFI VAL",
+      "BRO DDYFI COMMUNITY HOSPITAL",
+      "HEOL MAENGWYN"
+    ],
+    "town": "MACHYNLLETH",
+    "postcode": "SY20 8AD",
+    "phone": "01654 702224",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98045",
+    "name": "GOWER MEDICAL PRACTICE",
+    "addressLines": [
+      "MONKSLAND ROAD",
+      "SCURLAGE",
+      "REYNOLDSTON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA3 1AY",
+    "phone": "01792 390413",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97061",
+    "name": "GRANGE MEDICAL PRACTICE",
+    "addressLines": [
+      "BISHOP STREET"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 6PG",
+    "phone": "029 20226057",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97616",
+    "name": "GRANGETOWN HEALTH CENTRE",
+    "addressLines": [
+      "CAMBRIDGE STREET",
+      "GRANGETOWN"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 7DJ",
+    "phone": "029 20342728",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93023",
+    "name": "GRAY HILL SURGERY",
+    "addressLines": [
+      "WOODSTOCK WAY"
+    ],
+    "town": "CALDICOT",
+    "postcode": "NP26 5AB",
+    "phone": "01291 420282",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91038",
+    "name": "GWRYCH MEDICAL CENTRE",
+    "addressLines": [
+      "NORTH WALES BUSINESS PARK",
+      "CAE EITHIN"
+    ],
+    "town": "ABERGELE",
+    "postcode": "LL22 8LJ",
+    "phone": "01745 824111",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98056",
+    "name": "HARBOURSIDE HEALTH CENTRE",
+    "addressLines": [
+      "BEACON CENTRE FOR HEALTH",
+      "LANGDON ROAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 8QY",
+    "phone": "01792 481456",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96017",
+    "name": "HAYGARTH MEDICAL CENTRE",
+    "addressLines": [
+      "HAY ROAD",
+      "TALGARTH"
+    ],
+    "town": "BRECON",
+    "postcode": "LD3 0AW",
+    "phone": "01874 713000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93063",
+    "name": "HEALTH CENTRE",
+    "addressLines": [
+      "PARK ROW"
+    ],
+    "town": "TREDEGAR",
+    "postcode": "NP22 3NG",
+    "phone": "01495 722530",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98002",
+    "name": "HEALTH CENTRE",
+    "addressLines": [
+      "DYFED ROAD HEALTH CENTRE",
+      "DYFED ROAD"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 3AW",
+    "phone": "01639 635331",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00208",
+    "name": "HEALTH HUB IW",
+    "addressLines": [
+      "YSBYTY CWM CYNON",
+      "NEW ROAD"
+    ],
+    "town": "MOUNTAIN ASH",
+    "postcode": "CF45 4BZ",
+    "phone": "01443 715211",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94004",
+    "name": "HEALTH SERVICES CENTRE",
+    "addressLines": [
+      "CANOLFAN GOFFA FFESTINIOG",
+      "WYNNE ROAD"
+    ],
+    "town": "BLAENAU FFESTINIOG",
+    "postcode": "LL41 3DW",
+    "phone": "0300 0850004",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91009",
+    "name": "HEALTHY PRESTATYN",
+    "addressLines": [
+      "RHUDDLAN IACH TY NANT",
+      "NANT HALL ROAD"
+    ],
+    "town": "PRESTATYN",
+    "postcode": "LL19 9LG",
+    "phone": "03000 850001",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95063",
+    "name": "HEATHBRIDGE HOUSE",
+    "addressLines": [
+      "1A PISGAH STREET",
+      "KENFIG HILL"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF33 6BY",
+    "phone": "01656 740359",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93126",
+    "name": "HEREFORD ROAD SURGERY",
+    "addressLines": [
+      "6 HEREFORD ROAD"
+    ],
+    "town": "ABERGAVENNY",
+    "postcode": "NP7 5PR",
+    "phone": "01875 851155",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91058",
+    "name": "HILLCREST MEDICAL CENTRE",
+    "addressLines": [
+      "86 HOLT ROAD"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 8RG",
+    "phone": "01978 788287",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95020",
+    "name": "HIRWAUN MEDICAL CENTRE",
+    "addressLines": [
+      "HIGH STREET",
+      "HIRWAUN"
+    ],
+    "town": "ABERDARE",
+    "postcode": "CF44 9SL",
+    "phone": "01685 811999",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91013",
+    "name": "HOPE FAMILY MEDICAL CENTRE",
+    "addressLines": [
+      "HAWARDEN ROAD",
+      "HOPE"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL12 9NL",
+    "phone": "01978 760468",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94026",
+    "name": "HWB IECHYD CYBI",
+    "addressLines": [
+      "UCHELDRE AVENUE"
+    ],
+    "town": "HOLYHEAD",
+    "postcode": "LL65 1RA",
+    "phone": "01407 764239",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93018",
+    "name": "ISCA MEDICAL CENTRE",
+    "addressLines": [
+      "CADOC HOUSE",
+      "HIGH STREET"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP18 1AZ",
+    "phone": "01633 423886",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91622",
+    "name": "KINGS HOUSE SURGERY",
+    "addressLines": [
+      "KINGS AVENUE"
+    ],
+    "town": "RHYL",
+    "postcode": "LL18 1LT",
+    "phone": "01745 344189",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97067",
+    "name": "KINGS ROAD (DRS SURGERY)",
+    "addressLines": [
+      "180 KINGS ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 9DQ",
+    "phone": "029 20388803",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98055",
+    "name": "KINGS ROAD SURGERY",
+    "addressLines": [
+      "2-6 KINGS ROAD",
+      "MUMBLES"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA3 4AJ",
+    "phone": "01792 360933",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98041",
+    "name": "KINGS SURGERY",
+    "addressLines": [
+      "PRIMARY CARE RESOURCE CENTRE",
+      "MOOR ROAD"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA12 7BJ",
+    "phone": "01639 821489",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98027",
+    "name": "KINGSWAY SURGERY",
+    "addressLines": [
+      "37 THE KINGSWAY"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 5LF",
+    "phone": "01792 650716",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91014",
+    "name": "KINMEL BAY MEDICAL CENTRE",
+    "addressLines": [
+      "THE SQUARE"
+    ],
+    "town": "RHYL",
+    "postcode": "LL18 5AU",
+    "phone": "01745 353965",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91615",
+    "name": "LAKESIDE MEDICAL CENTRE",
+    "addressLines": [
+      "203 WELLINGTON ROAD"
+    ],
+    "town": "RHYL",
+    "postcode": "LL18 1LR",
+    "phone": "01745 344680",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91044",
+    "name": "LEESWOOD SURGERY",
+    "addressLines": [
+      "QUEEN STREET",
+      "LEESWOOD"
+    ],
+    "town": "MOLD",
+    "postcode": "CH7 4RQ",
+    "phone": "01352 770212",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94039",
+    "name": "LIVERPOOL HOUSE",
+    "addressLines": [
+      "WAUNFAWR"
+    ],
+    "town": "CAERNARFON",
+    "postcode": "LL55 4YY",
+    "phone": "01286 650223",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97005",
+    "name": "LLANDAFF FIELDS MEDICAL PRACTICE",
+    "addressLines": [
+      "CANTON COURT",
+      "WELLINGTON STREET"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 9SH",
+    "phone": "0844 4778710",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97286",
+    "name": "LLANDAFF NORTH MEDICAL CE",
+    "addressLines": [
+      "99 STATION ROAD",
+      "LLANDAFF NORTH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 2FD",
+    "phone": "029 20567822",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97619",
+    "name": "LLANDAFF SURGERY",
+    "addressLines": [
+      "19A HIGH STREET",
+      "LLANDAFF"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF5 2DY",
+    "phone": "029 20576675",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96013",
+    "name": "LLANDRINDOD WELLS MEDICAL PRACTICE",
+    "addressLines": [
+      "SPA ROAD EAST"
+    ],
+    "town": "LLANDRINDOD WELLS",
+    "postcode": "LD1 5ES",
+    "phone": "01597 824291",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97008",
+    "name": "LLANEDEYRN HEALTH CENTRE",
+    "addressLines": [
+      "LLAN HEALTHCARE",
+      "WELLBEING HUB @ MAELFA",
+      "ROUND WOOD, LLANEDEYRN"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF23 9PF",
+    "phone": "029 20731671",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92055",
+    "name": "LLANFAIR SURGERY",
+    "addressLines": [
+      "LLANFAIR ROAD"
+    ],
+    "town": "LLANDOVERY",
+    "postcode": "SA20 0HY",
+    "phone": "01550 720648",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96012",
+    "name": "LLANFYLLIN GROUP PRACTICE",
+    "addressLines": [
+      "HIGH STREET"
+    ],
+    "town": "LLANFYLLIN",
+    "postcode": "SY22 5DG",
+    "phone": "01691 648054",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92048",
+    "name": "LLANGENNECH SURGERY",
+    "addressLines": [
+      "PARK LANE",
+      "LLANGENNECH"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA14 8TU",
+    "phone": "01554 820287",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92056",
+    "name": "LLANILAR HEALTH CENTRE",
+    "addressLines": [
+      "LLANILAR"
+    ],
+    "town": "ABERYSTWYTH",
+    "postcode": "SY23 4PA",
+    "phone": "01974 241556",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97013",
+    "name": "LLANISHEN COURT SURGERY",
+    "addressLines": [
+      "LLANISHEN COURT",
+      "LLANISHEN"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 5YU",
+    "phone": "029 20757025",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93025",
+    "name": "LLANYRAVON SURGERY",
+    "addressLines": [
+      "LLANYRAVON WAY",
+      "LLANYRAVON"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 8HW",
+    "phone": "01633 833770",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93640",
+    "name": "LLISWERRY MEDICAL CENTRE",
+    "addressLines": [
+      "FALLOWFIELD DRIVE",
+      "LISWERRY"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 4TD",
+    "phone": "01633 277333",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98005",
+    "name": "LLWYN BRWYDRAU SURGERY",
+    "addressLines": [
+      "3 FREDERICK PLACE",
+      "LLANSAMLET"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA7 9RY",
+    "phone": "01792 771465",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00134",
+    "name": "LLWYNHENDY HEALTH CENTRE",
+    "addressLines": [
+      "LLWYNHENDY ROAD"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA14 9BN",
+    "phone": "01554 779890",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95009",
+    "name": "LLYNFI SURGERY",
+    "addressLines": [
+      "LLYNFI ROAD"
+    ],
+    "town": "MAESTEG",
+    "postcode": "CF34 9DT",
+    "phone": "016567 39023",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92019",
+    "name": "LLYNYFRAN SURGERY",
+    "addressLines": [
+      "MEDDYGFA LLYNYFRAN",
+      "LLYN Y FRAN ROAD"
+    ],
+    "town": "LLANDYSUL",
+    "postcode": "SA44 4JX",
+    "phone": "01559 364000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94016",
+    "name": "LLYS MEDDYG",
+    "addressLines": [
+      "GYFFIN SURGERY",
+      "WOODLANDS",
+      "GYFFIN"
+    ],
+    "town": "CONWY",
+    "postcode": "LL32 8LT",
+    "phone": "01492 592424",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91053",
+    "name": "MADRYN HOUSE SURGERY",
+    "addressLines": [
+      "6 MADRYN AVENUE"
+    ],
+    "town": "RHYL",
+    "postcode": "LL18 4RS",
+    "phone": "01745 342225",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96007",
+    "name": "MAESYCOED",
+    "addressLines": [
+      "BUILTH WELLS MEDICAL PRACTICE",
+      "GLANDWR PARK"
+    ],
+    "town": "BUILTH WELLS",
+    "postcode": "LD2 3DZ",
+    "phone": "01982 552207",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93051",
+    "name": "MALPAS BROOK HEALTH CENTRE",
+    "addressLines": [
+      "107 MALPAS ROAD"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 5PJ",
+    "phone": "01633 855808",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98043",
+    "name": "MANSELTON SURGERY",
+    "addressLines": [
+      "ELGIN STREET",
+      "MANSELTON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA5 8QE",
+    "phone": "01792 653643",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91021",
+    "name": "MARCHES MEDICAL PRACTICE",
+    "addressLines": [
+      "83 MAIN ROAD",
+      "BROUGHTON"
+    ],
+    "town": "CHESTER",
+    "postcode": "CH4 0NR",
+    "phone": "01244 520615",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92040",
+    "name": "MARGARET STREET PRACTICE",
+    "addressLines": [
+      "MARGARET STREET"
+    ],
+    "town": "AMMANFORD",
+    "postcode": "SA18 2PJ",
+    "phone": "01269 592777",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95046",
+    "name": "MARKET STREET PRACTICE",
+    "addressLines": [
+      "TONYFELIN MEDICAL CENTRE",
+      "TONYFELIN SURGERY",
+      "BEDWAS ROAD"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 1XP",
+    "phone": "029 20887831",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93010",
+    "name": "MARKHAM MEDICAL CENTRE",
+    "addressLines": [
+      "JAMES STREET",
+      "MARKHAM"
+    ],
+    "town": "BLACKWOOD",
+    "postcode": "NP12 0QN",
+    "phone": "01495 224134",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98015",
+    "name": "MAYHILL SURGERY",
+    "addressLines": [
+      "MOUNTAIN VIEW HEALTH CENTRE",
+      "51 MAYHILL ROAD",
+      "MAYHILL"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 6TD",
+    "phone": "01792 957600",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94020",
+    "name": "MEDDYG CARE",
+    "addressLines": [
+      "MEDDYG CARE LONFA",
+      "GLYN Y MARL ROAD"
+    ],
+    "town": "LLANDUDNO JUNCTION",
+    "postcode": "LL31 9NS",
+    "phone": "01492 581172",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94612",
+    "name": "MEDDYG CARE",
+    "addressLines": [
+      "PORTHMADOG HEALTH CENTRE"
+    ],
+    "town": "PORTHMADOG",
+    "postcode": "LL49 9NU",
+    "phone": "01766 514207",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94005",
+    "name": "MEDDYGFA",
+    "addressLines": [
+      "MEDDYGFA BETWS Y COED",
+      "FFORDD GETHIN"
+    ],
+    "town": "BETWS-Y-COED",
+    "postcode": "LL24 0BP",
+    "phone": "01690 710205",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94035",
+    "name": "MEDDYGFA",
+    "addressLines": [
+      "HAFAN CLINIC"
+    ],
+    "town": "BALA",
+    "postcode": "LL23 7BA",
+    "phone": "01678 520308",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97014",
+    "name": "MEDDYGFA ALBANY SURGERY",
+    "addressLines": [
+      "219 - 221 CITY ROAD",
+      "ROATH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 3JD",
+    "phone": "029 20486561",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97296",
+    "name": "MEDDYGFA CANNA SURGERY",
+    "addressLines": [
+      "27 WYNDHAM CRESCENT"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 9EE",
+    "phone": "029 20390722",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95080",
+    "name": "MEDDYGFA CWM RHYMNI PRACTICE",
+    "addressLines": [
+      "WHITE ROSE WAY MEDICAL CENTRE",
+      "WHITE ROSE WAY"
+    ],
+    "town": "NEW TREDEGAR",
+    "postcode": "NP24 6EE",
+    "phone": "01443 878300",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95081",
+    "name": "MEDDYGFA CWM RHYMNI PRACTICE",
+    "addressLines": [
+      "R.I.H.S.C.C LAWNS INDUSTRIAL ESTATE",
+      "RHYMNEY"
+    ],
+    "town": "TREDEGAR",
+    "postcode": "NP22 5PW",
+    "phone": "01685 700404",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92018",
+    "name": "MEDDYGFA EMLYN",
+    "addressLines": [
+      "LLOYDS TERRACE",
+      "ADPAR"
+    ],
+    "town": "NEWCASTLE EMLYN",
+    "postcode": "SA38 9NS",
+    "phone": "01239 710479",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95050",
+    "name": "MEDDYGFA GELLIGAER SURGERY",
+    "addressLines": [
+      "HEOL HEN YSGOL",
+      "GELLIGAER"
+    ],
+    "town": "HENGOED",
+    "postcode": "CF82 8FQ",
+    "phone": "01443 875333",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95029",
+    "name": "MEDDYGFA GLAN CYNON SURGE",
+    "addressLines": [
+      "TY CALON LAN",
+      "OXFORD STREET"
+    ],
+    "town": "MOUNTAIN ASH",
+    "postcode": "CF45 3HD",
+    "phone": "01443 706700",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94024",
+    "name": "MEDDYGFA GWYDIR",
+    "addressLines": [
+      "SCHOOL BANK ROAD"
+    ],
+    "town": "LLANRWST",
+    "postcode": "LL26 0AR",
+    "phone": "01492 640411",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94030",
+    "name": "MEDDYGFA HAFAN",
+    "addressLines": [
+      "DOC FICTORIA"
+    ],
+    "town": "CAERNARFON",
+    "postcode": "LL55 1TH",
+    "phone": "01286 684100",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97031",
+    "name": "MEDDYGFA LANSDOWNE SURGERY",
+    "addressLines": [
+      "AFON ELAI PARTNERSHIP",
+      "SANATORIUM ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 8DG",
+    "phone": "029 20395115",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92003",
+    "name": "MEDDYGFA MINAFON",
+    "addressLines": [
+      "HILLFIELD VILLAS"
+    ],
+    "town": "KIDWELLY",
+    "postcode": "SA17 4UL",
+    "phone": "01554 890234",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92024",
+    "name": "MEDDYGFA PADARN SURGERY",
+    "addressLines": [
+      "PENGLAIS ROAD"
+    ],
+    "town": "ABERYSTWYTH",
+    "postcode": "SY23 3DU",
+    "phone": "01970 624545",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92616",
+    "name": "MEDDYGFA PARC",
+    "addressLines": [
+      "BUILDING 8",
+      "PARC DEWI SANT",
+      "JOB'S WELL ROAD"
+    ],
+    "town": "CARMARTHEN",
+    "postcode": "SA31 3HB",
+    "phone": "01267 234774",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92051",
+    "name": "MEDDYGFA PENYGROES",
+    "addressLines": [
+      "BRIDGE STREET",
+      "PENYGROES"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA14 7RP",
+    "phone": "01269 506930",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94025",
+    "name": "MEDDYGFA RHYDBACH",
+    "addressLines": [
+      "BOTWNNOG"
+    ],
+    "town": "PWLLHELI",
+    "postcode": "LL53 8RE",
+    "phone": "01758 730266",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94633",
+    "name": "MEDDYGFA STAR SURGERY",
+    "addressLines": [
+      "STAR"
+    ],
+    "town": "GAERWEN",
+    "postcode": "LL60 6AH",
+    "phone": "01248 714533",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92023",
+    "name": "MEDDYGFA TAF",
+    "addressLines": [
+      "NORTH ROAD"
+    ],
+    "town": "WHITLAND",
+    "postcode": "SA34 0AT",
+    "phone": "01994 240195",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92034",
+    "name": "MEDDYGFA TEIFI SURGERY",
+    "addressLines": [
+      "NEW ROAD"
+    ],
+    "town": "LLANDYSUL",
+    "postcode": "SA44 4QJ",
+    "phone": "01559 362221",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92009",
+    "name": "MEDDYGFA TEILO",
+    "addressLines": [
+      "CRESCENT ROAD"
+    ],
+    "town": "LLANDEILO",
+    "postcode": "SA19 6HN",
+    "phone": "01558 823435",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92063",
+    "name": "MEDDYGFA TYWI",
+    "addressLines": [
+      "STATION ROAD",
+      "NANTGAREDIG"
+    ],
+    "town": "CARMARTHEN",
+    "postcode": "SA32 7LG",
+    "phone": "01267 290240",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92031",
+    "name": "MEDDYGFA TYWYN BACH",
+    "addressLines": [
+      "PARC Y MINOS STREET"
+    ],
+    "town": "BURRY PORT",
+    "postcode": "SA16 0BN",
+    "phone": "01554 832240",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94038",
+    "name": "MEDDYGFA VICTORIA SURGERY",
+    "addressLines": [
+      "VICTORIA ROAD"
+    ],
+    "town": "HOLYHEAD",
+    "postcode": "LL65 1UD",
+    "phone": "01407 762713",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92061",
+    "name": "MEDDYGFA WDIG",
+    "addressLines": [
+      "MAIN STREET"
+    ],
+    "town": "GOODWICK",
+    "postcode": "SA64 0BN",
+    "phone": "01348 872802",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92014",
+    "name": "MEDDYGFA'R LLAN",
+    "addressLines": [
+      "CHURCH SURGERY",
+      "PORTLAND STREET"
+    ],
+    "town": "ABERYSTWYTH",
+    "postcode": "SY23 2DX",
+    "phone": "01970 624855",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92013",
+    "name": "MEDDYGFA'R SARN",
+    "addressLines": [
+      "12 HEOL Y MEINCIAU",
+      "PONTYATES"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 5TR",
+    "phone": "01269 860348",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92035",
+    "name": "MEDDYGFA'R TYMBL",
+    "addressLines": [
+      "AMMAN TAWE PARTNERSHIP",
+      "CROSS HANDS HEALTH CENTRE",
+      "CARMARTHEN ROAD, CROSS HANDS"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA14 6SU",
+    "phone": "01269 841289",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91057",
+    "name": "MIDDLE LANE SURGERY",
+    "addressLines": [
+      "MIDDLE LANE"
+    ],
+    "town": "DENBIGH",
+    "postcode": "LL16 3UW",
+    "phone": "01745 816481",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94008",
+    "name": "MINFOR SURGERY",
+    "addressLines": [
+      "PARK ROAD"
+    ],
+    "town": "BARMOUTH",
+    "postcode": "LL42 1PL",
+    "phone": "01341 280521",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96001",
+    "name": "MONTGOMERY MEDICAL PRACTICE",
+    "addressLines": [
+      "WELL STREET"
+    ],
+    "town": "MONTGOMERY",
+    "postcode": "SY15 6PF",
+    "phone": "01686 668217",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95086",
+    "name": "MORLAIS MEDICAL PRACTICE",
+    "addressLines": [
+      "BERRY SQUARE",
+      "DOWLAIS"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 3AL",
+    "phone": "01685 385339",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94001",
+    "name": "MOSTYN HOUSE MEDICAL PRACTICE",
+    "addressLines": [
+      "MOSTYN BROADWAY"
+    ],
+    "town": "LLANDUDNO",
+    "postcode": "LL30 1YL",
+    "phone": "01492 860401",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93021",
+    "name": "MOUNT PLEASANT PRACTICE",
+    "addressLines": [
+      "CHEPSTOW COMMUNITY HOSPITAL",
+      "TEMPEST WAY"
+    ],
+    "town": "CHEPSTOW",
+    "postcode": "NP16 5XR",
+    "phone": "01291 440154",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98031",
+    "name": "MOUNT SURGERY",
+    "addressLines": [
+      "MARGAM ROAD"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA13 2BN",
+    "phone": "01639 502792",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93029",
+    "name": "NANT DOWLAIS HEALTH CENTRE",
+    "addressLines": [
+      "NANT DOWLAIS HEALTH CENTR",
+      "FAIRWATER SQUARE"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 4TA",
+    "phone": "01633 869544",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95049",
+    "name": "NANTGARW ROAD MEDICAL CENTRE",
+    "addressLines": [
+      "4 BEDDAU WAY"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 2AX",
+    "phone": "029 20888118",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95645",
+    "name": "NANTYMOEL SURGERY",
+    "addressLines": [
+      "OGWY STREET",
+      "NANTYMOEL"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF32 7NA",
+    "phone": "01656 843000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92038",
+    "name": "NARBERTH SURGERY",
+    "addressLines": [
+      "NORTHFIELD ROAD"
+    ],
+    "town": "NARBERTH",
+    "postcode": "SA67 7AA",
+    "phone": "01834 860237",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95043",
+    "name": "NELSON SURGERY",
+    "addressLines": [
+      "BRYNCELYN",
+      "NELSON"
+    ],
+    "town": "TREHARRIS",
+    "postcode": "CF46 6HL",
+    "phone": "01443 450340",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93026",
+    "name": "NEW CHAPEL STREET SURGERY",
+    "addressLines": [
+      "HAROLD STREET",
+      "PONTNEWYDD"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 1DU",
+    "phone": "01633 485155",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92005",
+    "name": "NEW QUAY SURGERY",
+    "addressLines": [
+      "CHURCH ROAD"
+    ],
+    "town": "NEW QUAY",
+    "postcode": "SA45 9PB",
+    "phone": "01545 560203",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95036",
+    "name": "NEWPARK SURGERY",
+    "addressLines": [
+      "TALBOT GREEN GROUP PRACTICE",
+      "HEOL-Y-GYFRAITH",
+      "TALBOT GREEN"
+    ],
+    "town": "PONTYCLUN",
+    "postcode": "CF72 8AJ",
+    "phone": "01443 220320",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92064",
+    "name": "NEWPORT SURGERY",
+    "addressLines": [
+      "LONG STREET"
+    ],
+    "town": "NEWPORT",
+    "postcode": "SA42 0TJ",
+    "phone": "01239 820397",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96015",
+    "name": "NEWTOWN MEDICAL CENTRE",
+    "addressLines": [
+      "PARK STREET"
+    ],
+    "town": "NEWTOWN",
+    "postcode": "SY16 1EF",
+    "phone": "01686 611611",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92440",
+    "name": "NEYLAND SURGERY",
+    "addressLines": [
+      "NEYLAND HEALTH CENTRE",
+      "ST CLEMENTS ROAD",
+      "NEYLAND"
+    ],
+    "town": "MILFORD HAVEN",
+    "postcode": "SA73 1SH",
+    "phone": "01646 600268",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98020",
+    "name": "NICHOLL STREET MEDICAL CENTRE",
+    "addressLines": [
+      "NICHOLL ST MEDICAL CENTR",
+      "33 NICHOLL STREET"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 4HF",
+    "phone": "01792 653548",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97015",
+    "name": "NORTH CARDIFF MEDICAL CENTRE",
+    "addressLines": [
+      "EXCALIBUR DRIVE",
+      "THORNHILL"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 9BB",
+    "phone": "029 20764444",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93067",
+    "name": "NORTH CELYNEN PRACTICE",
+    "addressLines": [
+      "CROWN STREET",
+      "CRUMLIN"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP11 4PQ",
+    "phone": "01495 246531",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97020",
+    "name": "NORTH ROAD MEDICAL PRACTICE",
+    "addressLines": [
+      "182 NORTH ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 3XQ",
+    "phone": "029 20619188",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93024",
+    "name": "OAK STREET SURGERY",
+    "addressLines": [
+      "OAK STREET"
+    ],
+    "town": "CWMBRAN",
+    "postcode": "NP44 3LT",
+    "phone": "01633 866719",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95010",
+    "name": "OAK TREE SURGERY",
+    "addressLines": [
+      "WHITETHORN DRIVE",
+      "BRACKLA"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF31 2PQ",
+    "phone": "01656 665353",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95065",
+    "name": "OAKFIELD SURGERY",
+    "addressLines": [
+      "OAKFIELD STREET",
+      "YSTRAD MYNACH"
+    ],
+    "town": "HENGOED",
+    "postcode": "CF82 7WX",
+    "phone": "01443 812979",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95067",
+    "name": "OGMORE VALE SURGERY",
+    "addressLines": [
+      "COMMERCIAL STREET",
+      "OGMORE VALE"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF32 7BL",
+    "phone": "01656 840208",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95025",
+    "name": "OLD SCHOOL SURGERY",
+    "addressLines": [
+      "SCHOOL STREET"
+    ],
+    "town": "PONTYCLUN",
+    "postcode": "CF72 9AA",
+    "phone": "01443 222567",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93033",
+    "name": "OLD STATION SURGERY",
+    "addressLines": [
+      "39 BRECON ROAD"
+    ],
+    "town": "ABERGAVENNY",
+    "postcode": "NP7 5AQ",
+    "phone": "01873 859000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93031",
+    "name": "PANTEG HEALTH CENTRE",
+    "addressLines": [
+      "KEMYS STREET",
+      "GRIFFITHSTOWN"
+    ],
+    "town": "PONTYPOOL",
+    "postcode": "NP4 5DJ",
+    "phone": "01495 763608",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91636",
+    "name": "PANTON SURGERY",
+    "addressLines": [
+      "HALKYN ROAD",
+      "FLINTSHIRE"
+    ],
+    "town": "HOLYWELL",
+    "postcode": "CH8 7TZ",
+    "phone": "01352 718364",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95011",
+    "name": "PARC CANOL SURGERY",
+    "addressLines": [
+      "CENTRAL PARK",
+      "CHURCH VILLAGE"
+    ],
+    "town": "PONTYPRIDD",
+    "postcode": "CF38 1RJ",
+    "phone": "01443 203414",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94006",
+    "name": "PARC GLAS",
+    "addressLines": [
+      "BETHEL"
+    ],
+    "town": "BODORGAN",
+    "postcode": "LL62 5NL",
+    "phone": "01407 840294",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91028",
+    "name": "PARK HOUSE SURGERY",
+    "addressLines": [
+      "26 NANT HALL ROAD"
+    ],
+    "town": "PRESTATYN",
+    "postcode": "LL19 9LN",
+    "phone": "01745 854496",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95044",
+    "name": "PARK LANE SURGERY",
+    "addressLines": [
+      "PARK LANE",
+      "TONYREFAIL"
+    ],
+    "town": "PORTH",
+    "postcode": "CF39 8AG",
+    "phone": "01443 670567",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93040",
+    "name": "PARK SURGERY",
+    "addressLines": [
+      "19 HILLS HEALTH & WELLBEING CENTRE",
+      "282 RINGLAND CIRCLE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 9PS",
+    "phone": "01633 277442",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91023",
+    "name": "PEN Y BONT SURGERY",
+    "addressLines": [
+      "THE ROE"
+    ],
+    "town": "ST. ASAPH",
+    "postcode": "LL17 0LU",
+    "phone": "01745 583208",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91006",
+    "name": "PEN Y MAES HEALTH CENTRE",
+    "addressLines": [
+      "BEECH STREET",
+      "SUMMERHILL"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 4UF",
+    "phone": "01978 756370",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93623",
+    "name": "PEN-Y-CAE SURGERY",
+    "addressLines": [
+      "THE HEALTH CENTRE",
+      "BRIDGE STREET"
+    ],
+    "town": "EBBW VALE",
+    "postcode": "NP23 6EY",
+    "phone": "01495 304076",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91005",
+    "name": "PENDRE SURGERY",
+    "addressLines": [
+      "COLESHILL STREET"
+    ],
+    "town": "HOLYWELL",
+    "postcode": "CH8 7RS",
+    "phone": "01352 746131",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91017",
+    "name": "PENDRE SURGERY",
+    "addressLines": [
+      "CLAYTON ROAD"
+    ],
+    "town": "MOLD",
+    "postcode": "CH7 1SS",
+    "phone": "01352 759163",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93614",
+    "name": "PENGAM HEALTH CENTRE",
+    "addressLines": [
+      "GLAN-YR-AFON LANE",
+      "FLEUR DE LIS"
+    ],
+    "town": "BLACKWOOD",
+    "postcode": "NP12 3WA",
+    "phone": "01443 834672",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96002",
+    "name": "PENGOROF SURGERY",
+    "addressLines": [
+      "GOROF ROAD",
+      "LOWER CWMTWRCH"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA9 1DS",
+    "phone": "01639 843221",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91037",
+    "name": "PENNANT SURGERY",
+    "addressLines": [
+      "BAGILLT STREET",
+      "OFF HIGH STREET"
+    ],
+    "town": "HOLYWELL",
+    "postcode": "CH8 7TR",
+    "phone": "01352 716766",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95057",
+    "name": "PENYGRAIG SURGERY",
+    "addressLines": [
+      "GEORGE STREET",
+      "PENYGRAIG"
+    ],
+    "town": "TONYPANDY",
+    "postcode": "CF40 1QN",
+    "phone": "01443 433125",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91002",
+    "name": "PLAS MEDDYG",
+    "addressLines": [
+      "STATION ROAD"
+    ],
+    "town": "RUTHIN",
+    "postcode": "LL15 1BP",
+    "phone": "01824 702255",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94003",
+    "name": "PLAS MENAI SURGERY",
+    "addressLines": [
+      "PENMAENMAWR ROAD"
+    ],
+    "town": "LLANFAIRFECHAN",
+    "postcode": "LL33 0PE",
+    "phone": "01248 680021",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91022",
+    "name": "PLAS Y BRYN MEDICAL CENTRE",
+    "addressLines": [
+      "CHAPEL STREET"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 7DE",
+    "phone": "01978 351308",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95004",
+    "name": "PONT NEWYDD MEDICAL CENTRE",
+    "addressLines": [
+      "ABERRHONDDA ROAD"
+    ],
+    "town": "PORTH",
+    "postcode": "CF39 0LD",
+    "phone": "01443 688880",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98001",
+    "name": "PONTARDAWE PRIMARY CARE CENTRE",
+    "addressLines": [
+      "TAWE TERRACE",
+      "ALLOY INDUSTRIAL ESTATE",
+      "PONTARDAWE"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA8 4JU",
+    "phone": "01792 863103",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95072",
+    "name": "PONTCAE MEDICAL PRACTICE",
+    "addressLines": [
+      "DYNEVOR STREET",
+      "GEORGETOWN"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 1YE",
+    "phone": "01685 384369",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93012",
+    "name": "PONTLLANFRAITH HEALTH CENTRE",
+    "addressLines": [
+      "RIVERSIDE MEDICAL PRACTIC",
+      "PONTLLANFRAITH HEALTH CENTRE",
+      "BLACKWOOD ROAD, PONTLLANFRAITH"
+    ],
+    "town": "BLACKWOOD",
+    "postcode": "NP12 2YU",
+    "phone": "01495 227131",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93058",
+    "name": "PONTYPOOL MEDICAL CENTRE",
+    "addressLines": [
+      "OFF TOWN BRIDGE PONTYPOOL",
+      "CLOS AFON LLWYD"
+    ],
+    "town": "PONTYPOOL",
+    "postcode": "NP4 6DH",
+    "phone": "01495 763141",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95041",
+    "name": "PORTHCAWL MEDICAL",
+    "addressLines": [
+      "PORTHCAWL MEDICAL CENTRE",
+      "CLOS Y MAMETZ"
+    ],
+    "town": "PORTHCAWL",
+    "postcode": "CF36 5DJ",
+    "phone": "01656 304204",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95023",
+    "name": "PRACTICE 1",
+    "addressLines": [
+      "KEIR HARDIE HEALTH PARK",
+      "ABERDARE ROAD"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 1BZ",
+    "phone": "01685 353780",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95647",
+    "name": "PRACTICE 2",
+    "addressLines": [
+      "KEIR HARDIE HEALTH PARK",
+      "ABERDARE ROAD"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 1BZ",
+    "phone": "01685 351492",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95005",
+    "name": "PRACTICE 3 KEIR HARDIE HE",
+    "addressLines": [
+      "KEIR HARDIE HEALTH PARK",
+      "ABERDARE ROAD"
+    ],
+    "town": "MERTHYR TYDFIL",
+    "postcode": "CF48 1BZ",
+    "phone": "01685 351493",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96438",
+    "name": "PRESTEIGNE MEDICAL PRACTICE",
+    "addressLines": [
+      "LUGG VIEW"
+    ],
+    "town": "PRESTEIGNE",
+    "postcode": "LD8 2RJ",
+    "phone": "01544 267985",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00209",
+    "name": "PRIMARY CARE CS",
+    "addressLines": [
+      "ERYLDON",
+      "CAMPBELL ROAD"
+    ],
+    "town": "CAERNARFON",
+    "postcode": "LL55 1HU",
+    "phone": "03000 852345",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98008",
+    "name": "PRINCESS STREET SURGERY",
+    "addressLines": [
+      "PRINCESS STREET",
+      "GORSEINON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA4 4US",
+    "phone": "01792 895681",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98040",
+    "name": "QUAYS MEDICAL PRACTICE",
+    "addressLines": [
+      "BRITON FERRY HEALTH CENTRE",
+      "BRUNEL WAY, BAGLAN ENERGY PARK",
+      "BRITON FERRY"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 2FP",
+    "phone": "01639 825265",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91051",
+    "name": "QUEENSFERRY MEDICAL PRACTICE",
+    "addressLines": [
+      "PIERCE STREET",
+      "QUEENSFERRY"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 1SY",
+    "phone": "01244 813340",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97024",
+    "name": "RADYR MEDICAL CENTRE",
+    "addressLines": [
+      "RECTORY CLOSE",
+      "RADYR"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF15 8EW",
+    "phone": "029 20842767",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97003",
+    "name": "REDLANDS SURGERY",
+    "addressLines": [
+      "REDLANDS ROAD"
+    ],
+    "town": "PENARTH",
+    "postcode": "CF64 3WX",
+    "phone": "029 20706043",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96006",
+    "name": "RHAYADER GROUP PRACTICE",
+    "addressLines": [
+      "CAEHERBERT LANE"
+    ],
+    "town": "RHAYADER",
+    "postcode": "LD6 5ED",
+    "phone": "01597 810231",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93043",
+    "name": "RICHMOND CLINIC",
+    "addressLines": [
+      "172 CAERLEON ROAD"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 7FY",
+    "phone": "01633 259970",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00201",
+    "name": "RIMON THAN MEDICAL FACILI",
+    "addressLines": [
+      "VALLEY"
+    ],
+    "town": "HOLYHEAD",
+    "postcode": "LL65 3NY",
+    "phone": "01407 606100",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93047",
+    "name": "RINGLAND MEDICAL PRACTICE",
+    "addressLines": [
+      "19HILLS HEALTH & WELLBEIN",
+      "282 RINGLAND CIRCLE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 9PS",
+    "phone": "01633 742960",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93064",
+    "name": "RISCA SURGERY",
+    "addressLines": [
+      "ST. MARY STREET",
+      "RISCA"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP11 6YS",
+    "phone": "01633 613131",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95035",
+    "name": "RIVERSDALE HOUSE",
+    "addressLines": [
+      "MERTHYRMAWR ROAD"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF31 3NL",
+    "phone": "01656 766866",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98035",
+    "name": "RIVERSIDE SURGERY",
+    "addressLines": [
+      "PORT TALBOT RESOURCE CENTRE",
+      "MOOR ROAD",
+      "NEATH"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA12 7BJ",
+    "phone": "01639 813868",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97034",
+    "name": "ROATH HOUSE SURGERY",
+    "addressLines": [
+      "100 PEN-Y-LAN ROAD",
+      "PENYLAN"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF23 5RH",
+    "phone": "029 20461100",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97002",
+    "name": "ROATHWELL SURGERY",
+    "addressLines": [
+      "116 NEWPORT ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 1YT",
+    "phone": "029 20494537",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91018",
+    "name": "ROSENEATH MEDICAL PRACTICE",
+    "addressLines": [
+      "BUCKLEY MEDICAL CENTRE",
+      "ALLTAMI ROAD"
+    ],
+    "town": "BUCKLEY",
+    "postcode": "CH7 3PG",
+    "phone": "01244 550555",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97027",
+    "name": "RUMNEY PRIMARY CARE CENTRE",
+    "addressLines": [
+      "BARMOUTH ROAD",
+      "RUMNEY"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF3 3LG",
+    "phone": "029 20797751",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95062",
+    "name": "SAINT ANDREWS SURGERY",
+    "addressLines": [
+      "1 DE WINTON STREET"
+    ],
+    "town": "TONYPANDY",
+    "postcode": "CF40 2QZ",
+    "phone": "01443 442902",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92002",
+    "name": "SAINT THOMAS SURGERY",
+    "addressLines": [
+      "RIFLEMAN LANE",
+      "ST. THOMAS GREEN"
+    ],
+    "town": "HAVERFORDWEST",
+    "postcode": "SA61 1QX",
+    "phone": "01437 762162",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92033",
+    "name": "SAUNDERSFOOT MEDICAL CENTRE",
+    "addressLines": [
+      "WESTFIELD ROAD"
+    ],
+    "town": "SAUNDERSFOOT",
+    "postcode": "SA69 9JW",
+    "phone": "01834 815115",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91632",
+    "name": "SEABANK SURGERY",
+    "addressLines": [
+      "4-6 RHODFA WYN",
+      "TOWER GAR"
+    ],
+    "town": "PRESTATYN",
+    "postcode": "LL19 7UN",
+    "phone": "01745 852775",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91036",
+    "name": "SHOTTON LANE SURGERY",
+    "addressLines": [
+      "38 SHOTTON LANE",
+      "SHOTTON"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 1QT",
+    "phone": "01244 812094",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93009",
+    "name": "SIX BELLS MEDICAL CENTRE",
+    "addressLines": [
+      "ABERBEEG MEDICAL CENTRE",
+      "THE SQUARE",
+      "ABERBEEG"
+    ],
+    "town": "ABERTILLERY",
+    "postcode": "NP13 2AB",
+    "phone": "01495 322900",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98021",
+    "name": "SKETTY & KILLAY MEDICAL CENTRE",
+    "addressLines": [
+      "SKETTY SURGERY",
+      "DE LA BECHE ROAD",
+      "SKETTY"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA2 9EA",
+    "phone": "01792 206862",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98010",
+    "name": "SKEWEN MEDICAL CENTRE",
+    "addressLines": [
+      "QUEENS ROAD",
+      "SKEWEN"
+    ],
+    "town": "NEATH",
+    "postcode": "SA10 6UH",
+    "phone": "01792 812316",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92059",
+    "name": "SOLVA SURGERY",
+    "addressLines": [
+      "MEDDYGFA PENRHYN",
+      "PENINSULA PRACTICE",
+      "MAES YR EGLWYS, SOLVA"
+    ],
+    "town": "HAVERFORDWEST",
+    "postcode": "SA62 6TW",
+    "phone": "01437 721306",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95078",
+    "name": "SOUTH STREET SURGERY",
+    "addressLines": [
+      "SOUTH STREET"
+    ],
+    "town": "BARGOED",
+    "postcode": "CF81 8SU",
+    "phone": "01443 821255",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00198",
+    "name": "ST ATHAN MEDICAL FACILITY",
+    "addressLines": [
+      "ST ATHAN MEDICAL FACILTY",
+      "ST ATHAN"
+    ],
+    "town": "BARRY",
+    "postcode": "CF62 4WA",
+    "phone": "01446 797479",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93054",
+    "name": "ST DAVID'S CLINIC",
+    "addressLines": [
+      "BELLE VUE TERRACE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 2LB",
+    "phone": "01633 251133",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91030",
+    "name": "ST GEORGE'S CRESCENT SURGERY",
+    "addressLines": [
+      "40 ST. GEORGES CRESCENT"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL13 8DB",
+    "phone": "01978 290708",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95001",
+    "name": "ST JOHN'S MEDICAL PRACTICE",
+    "addressLines": [
+      "HIGH STREET"
+    ],
+    "town": "ABERDARE",
+    "postcode": "CF44 7DD",
+    "phone": "01685 874614",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93049",
+    "name": "ST JULIANS MEDICAL CENTRE",
+    "addressLines": [
+      "13A STAFFORD ROAD"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 7DQ",
+    "phone": "01633 251304",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91060",
+    "name": "ST MARKS DEE VIEW SURGERY",
+    "addressLines": [
+      "FRON ROAD",
+      "CONNAH'S QUAY"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 4PJ",
+    "phone": "01244 812003",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92050",
+    "name": "ST PETER'S SURGERY",
+    "addressLines": [
+      "ST. PETERS SURGERY",
+      "ST. PETERS STREET"
+    ],
+    "town": "CARMARTHEN",
+    "postcode": "SA31 1AH",
+    "phone": "01267 236841",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97065",
+    "name": "ST. DAVIDS MEDICAL CENTRE",
+    "addressLines": [
+      "PONTPRENNAU MEDICAL CENTR",
+      "PENTWYN DRIVE"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF23 7SD",
+    "phone": "02920 739999",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97053",
+    "name": "ST. ISAN ROAD SURGERY",
+    "addressLines": [
+      "46 ST. ISAN ROAD",
+      "HEATH CARDIFF"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 4UU",
+    "phone": "029 20612333",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93001",
+    "name": "ST. LUKE'S SURGERY",
+    "addressLines": [
+      "ST LUKES SURGERY",
+      "(OFF GWYDDON ROAD)",
+      "ABERCARN NEWBRIDGE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP11 5GX",
+    "phone": "01495 244205",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93039",
+    "name": "ST. PAUL'S CLINIC",
+    "addressLines": [
+      "PALMYRA PLACE",
+      "KEYNSHAM AVENUE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 4EJ",
+    "phone": "01633 266140",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98016",
+    "name": "ST. THOMAS SURGERY",
+    "addressLines": [
+      "YSGOL STREET",
+      "PORT TENNANT"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 8LH",
+    "phone": "01792 653992",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97011",
+    "name": "STANWELL SURGERY",
+    "addressLines": [
+      "PENARTH HEALTHCARE PARTNERSHIP",
+      "STANWELL ROAD",
+      "PENARTH VALE OF GLAMORGAN"
+    ],
+    "town": "PENARTH",
+    "postcode": "CF64 3XE",
+    "phone": "029 20703039",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91004",
+    "name": "STRATHMORE MEDICAL PRACTICE",
+    "addressLines": [
+      "26-28 CHESTER ROAD"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 2SA",
+    "phone": "01978 352055",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98044",
+    "name": "STRAWBERRY PLACE SURGERY",
+    "addressLines": [
+      "5 STRAWBERRY PLACE",
+      "MORRISTON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA6 7AQ",
+    "phone": "01792 522526",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97062",
+    "name": "SULLY SURGERY",
+    "addressLines": [
+      "25 SOUTH ROAD",
+      "SULLY"
+    ],
+    "town": "PENARTH",
+    "postcode": "CF64 5TG",
+    "phone": "02920 530255",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93014",
+    "name": "SUNNYBANK HEALTH CENTRE",
+    "addressLines": [
+      "BRYN ROAD",
+      "CEFN FFOREST"
+    ],
+    "town": "BLACKWOOD",
+    "postcode": "NP12 3NA",
+    "phone": "01443 875131",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98048",
+    "name": "TABERNACLE SURGERY",
+    "addressLines": [
+      "4 TABERNACLE STREET",
+      "SKEWEN"
+    ],
+    "town": "NEATH",
+    "postcode": "SA10 6UF",
+    "phone": "01792 817009",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97016",
+    "name": "TAFF RIVERSIDE PRACTICE",
+    "addressLines": [
+      "WELLINGTON STREET"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 9SH",
+    "phone": "029 20803200",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95058",
+    "name": "TAFF VALE PRACTICE",
+    "addressLines": [
+      "DYFFRYN ROAD",
+      "RHYDYFELIN"
+    ],
+    "town": "PONTYPRIDD",
+    "postcode": "CF37 5RW",
+    "phone": "0844 4773487",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98013",
+    "name": "TALYBONT SURGERY",
+    "addressLines": [
+      "STATION ROAD",
+      "PONTARDDULAIS"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA4 8TJ",
+    "phone": "01792 882368",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92022",
+    "name": "TANYFRON SURGERY",
+    "addressLines": [
+      "ABERAERON INTEGRATED CARE",
+      "VICARAGE HILL"
+    ],
+    "town": "ABERAERON",
+    "postcode": "SA46 0DY",
+    "phone": "01545 570271",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92027",
+    "name": "TENBY SURGERY",
+    "addressLines": [
+      "THE NORTON",
+      "GAS LANE"
+    ],
+    "town": "TENBY",
+    "postcode": "SA70 8AG",
+    "phone": "01834 840868",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96005",
+    "name": "THE ARWYSTLI MEDICAL PRACTICE",
+    "addressLines": [
+      "MOUNT LANE"
+    ],
+    "town": "LLANIDLOES",
+    "postcode": "SY18 6EZ",
+    "phone": "01686 412228",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95024",
+    "name": "THE ASHGROVE SURGERY",
+    "addressLines": [
+      "MORGAN STREET"
+    ],
+    "town": "PONTYPRIDD",
+    "postcode": "CF37 2DR",
+    "phone": "01443 404444",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98057",
+    "name": "THE BEACON CENTRE FOR HEALTH",
+    "addressLines": [
+      "SA1 MEDICAL CENTRE",
+      "LANGDON ROAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA1 8QY",
+    "phone": "01792 481444",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97068",
+    "name": "THE CAERAU LANE SURGERY",
+    "addressLines": [
+      "DANESCOURT & GREENMOUNT SURGERY",
+      "25 CHURCH ROAD",
+      "ELY"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF5 5LQ",
+    "phone": "029 20591855",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97056",
+    "name": "THE CITY SURGERY",
+    "addressLines": [
+      "187 CITY ROAD",
+      "ROATH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF24 3WD",
+    "phone": "029 20437980",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91034",
+    "name": "THE CLINIC",
+    "addressLines": [
+      "RUTHIN COMMUNITY HOSPITAL",
+      "LLANRHYDD STREET"
+    ],
+    "town": "RUTHIN",
+    "postcode": "LL15 1PS",
+    "phone": "03000 854555",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98023",
+    "name": "THE GROVE MEDICAL CENTRE",
+    "addressLines": [
+      "6 UPLANDS TERRACE",
+      "UPLANDS"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA2 0GU",
+    "phone": "01792 643000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91047",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "CORWEN FAMILY PRACTICE",
+      "GREEN LANE"
+    ],
+    "town": "CORWEN",
+    "postcode": "LL21 0DN",
+    "phone": "03000 859355",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91056",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "COEDPOETH HEALTH CENTRE",
+      "SMITHY ROAD",
+      "COEDPOETH"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL11 3NS",
+    "phone": "01978 720011",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91059",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "BEECH AVENUE PRACTICE",
+      "BEECH AVENUE",
+      "RHOSLLANERCHRUGOG"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL14 1AA",
+    "phone": "01978 845955",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94009",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "BEAUMARIS LIBRARY"
+    ],
+    "town": "BEAUMARIS",
+    "postcode": "LL58 8AL",
+    "phone": "01248 810818",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94015",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "DWYRAN"
+    ],
+    "town": "LLANFAIRPWLLGWYNGYLL",
+    "postcode": "LL61 6YD",
+    "phone": "01248 714388",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94021",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "HWB IECHYD EIFIONYDD",
+      "PWLLHELI ROAD"
+    ],
+    "town": "CRICCIETH",
+    "postcode": "LL52 0RR",
+    "phone": "01766 800550",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98017",
+    "name": "THE HEALTH CENTRE",
+    "addressLines": [
+      "WAUN AVENUE",
+      "GLYNCORRWG"
+    ],
+    "town": "PORT TALBOT",
+    "postcode": "SA13 3DP",
+    "phone": "01639 850345",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91055",
+    "name": "THE LAURELS SURGERY",
+    "addressLines": [
+      "FLINT HEALTH & WELLBEING CENTRE",
+      "EARL STREET"
+    ],
+    "town": "FLINT",
+    "postcode": "CH6 5ER",
+    "phone": "0300 0859470",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95051",
+    "name": "THE MAERDY FERNDALE MGP",
+    "addressLines": [
+      "FERNDALE MEDICAL CENTRE",
+      "56-58 HIGH STREET"
+    ],
+    "town": "FERNDALE",
+    "postcode": "CF43 4XX",
+    "phone": "01443 730539",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91043",
+    "name": "THE MEDICAL CENTRE",
+    "addressLines": [
+      "RUABON MEDICAL CENTRE",
+      "HIGH STREET",
+      "RUABON"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL14 6NH",
+    "phone": "01978 823717",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94018",
+    "name": "THE MEDICAL CENTRE",
+    "addressLines": [
+      "PENRHYN BAY SURGERY",
+      "PLAS PENRHYN",
+      "PENRHYN BAY"
+    ],
+    "town": "LLANDUDNO",
+    "postcode": "LL30 3EU",
+    "phone": "01492 550430",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95018",
+    "name": "THE MEDICAL CENTRE",
+    "addressLines": [
+      "HEOL-YR-ONNEN",
+      "PENCOED"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF35 5PF",
+    "phone": "01656 867900",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95060",
+    "name": "THE MEDICAL CENTRE",
+    "addressLines": [
+      "TAFFS WELL MEDICAL CENTRE",
+      "CARDIFF ROAD",
+      "TAFFS WELL"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF15 7YG",
+    "phone": "029 20820320",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98033",
+    "name": "THE MUMBLES MEDICAL PRACTICE",
+    "addressLines": [
+      "10 WEST CROSS AVENUE",
+      "WEST CROSS"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA3 5UA",
+    "phone": "01792 403010",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95017",
+    "name": "THE NEW SURGERY",
+    "addressLines": [
+      "NEW SURGERY PRIMARY CARE CENTRE",
+      "MIN-Y-NANT",
+      "PENCOED"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF35 6YP",
+    "phone": "01656 860343",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97033",
+    "name": "THE PENYLAN SURGERY",
+    "addressLines": [
+      "74 PEN-Y-LAN ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF23 5SY",
+    "phone": "029 20498181",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00206",
+    "name": "THE PHARMACY",
+    "addressLines": [
+      "LLANBEDROG"
+    ],
+    "town": "PWLLHELI",
+    "postcode": "LL53 7TH",
+    "phone": "",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97611",
+    "name": "THE PRACTICE OF HEALTH",
+    "addressLines": [
+      "31 BARRY ROAD"
+    ],
+    "town": "BARRY",
+    "postcode": "CF63 1BA",
+    "phone": "01446 700350",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91607",
+    "name": "THE QUAY HEALTH CENTRE",
+    "addressLines": [
+      "FRON ROAD",
+      "CONNAH'S QUAY"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 4PJ",
+    "phone": "01244 812217",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91040",
+    "name": "THE QUAY SURGERY",
+    "addressLines": [
+      "THE QUAY HEALTH CENTRE",
+      "FRON ROAD",
+      "CONNAH'S QUAY"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 4PJ",
+    "phone": "01244 814272",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92041",
+    "name": "THE ROBERT STREET SURGERY",
+    "addressLines": [
+      "MANCHESTER SQUARE"
+    ],
+    "town": "MILFORD HAVEN",
+    "postcode": "SA73 2JW",
+    "phone": "01646 690690",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93061",
+    "name": "THE ROGERSTONE PRACTICE",
+    "addressLines": [
+      "CHAPELWOOD PRIMARY CARE CENTRE",
+      "WESTERN VALLEY ROAD",
+      "ROGERSTONE"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP10 9DU",
+    "phone": "01633 890800",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93044",
+    "name": "THE RUGBY SURGERY",
+    "addressLines": [
+      "1 KELVEDON STREET"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP19 0DW",
+    "phone": "01633 258564",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91015",
+    "name": "THE STABLES MEDICAL",
+    "addressLines": [
+      "27 GLYNNE WAY",
+      "HAWARDEN"
+    ],
+    "town": "DEESIDE",
+    "postcode": "CH5 3PA",
+    "phone": "01244 532223",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91019",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "GARDDEN ROAD SURGERY",
+      "GARDDEN ROAD",
+      "RHOSLLANERCHRUGOG"
+    ],
+    "town": "WREXHAM",
+    "postcode": "LL14 2EN",
+    "phone": "01978 801890",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91604",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "SANDY LANE",
+      "HANMER"
+    ],
+    "town": "WHITCHURCH",
+    "postcode": "SY13 3DL",
+    "phone": "01948 830223",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93057",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "ABERSYCHAN GROUP PRACTICE",
+      "OLD ROAD",
+      "ABERSYCHAN"
+    ],
+    "town": "PONTYPOOL",
+    "postcode": "NP4 7BH",
+    "phone": "01495 772239",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94017",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "LLANBERIS SURGERY",
+      "HIGH STREET",
+      "LLANBERIS"
+    ],
+    "town": "CAERNARFON",
+    "postcode": "LL55 4SU",
+    "phone": "01286 870634",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94036",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "SPRINGFIELD STREET"
+    ],
+    "town": "DOLGELLAU",
+    "postcode": "LL40 1LY",
+    "phone": "01341 422431",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94043",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "GWALCHMAI"
+    ],
+    "town": "HOLYHEAD",
+    "postcode": "LL65 4RS",
+    "phone": "01407 720202",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95030",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "ST DAVID STREET",
+      "TON PENTRE"
+    ],
+    "town": "PENTRE",
+    "postcode": "CF41 7BD",
+    "phone": "01443 435846",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95034",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "WAUN BANT ROAD",
+      "NORTH CORNELLY",
+      "KENFIG HILL"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF33 6DE",
+    "phone": "01656 740345",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97018",
+    "name": "THE SURGERY",
+    "addressLines": [
+      "ST DAVIDS COURT",
+      "68A COWBRIDGE ROAD EAST"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF11 9DN",
+    "phone": "029 20379510",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93037",
+    "name": "THE SURGERY JAMES HOUSE",
+    "addressLines": [
+      "MARYPORT STREET"
+    ],
+    "town": "USK",
+    "postcode": "NP15 1AB",
+    "phone": "01291 672633",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95073",
+    "name": "THE VILLAGE SURGERY",
+    "addressLines": [
+      "LLANBRADACH CENTRE FOR HEALTH",
+      "12 PENCERRIG STREET",
+      "LLANBRADACH"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 3LR",
+    "phone": "029 20869638",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97032",
+    "name": "THE WATERFRONT MEDICAL CENTRE",
+    "addressLines": [
+      "WATERFRONT MEDICAL CENTRE",
+      "HEOL Y LLONGAU"
+    ],
+    "town": "BARRY",
+    "postcode": "CF63 4AR",
+    "phone": "01446 734131",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93022",
+    "name": "TOWN GATE PRACTICE",
+    "addressLines": [
+      "CHEPSTOW COMMUNITY HOSPITAL",
+      "TEMPEST WAY"
+    ],
+    "town": "CHEPSTOW",
+    "postcode": "NP16 5XP",
+    "phone": "01291 440065",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94011",
+    "name": "TREFLAN",
+    "addressLines": [
+      "LOWER CARDIFF ROAD"
+    ],
+    "town": "PWLLHELI",
+    "postcode": "LL53 5NF",
+    "phone": "01758 701458",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92053",
+    "name": "TREGARON SURGERY",
+    "addressLines": [
+      "SALOP HOUSE",
+      "CHAPEL STREET"
+    ],
+    "town": "TREGARON",
+    "postcode": "SY25 6HA",
+    "phone": "01974 298218",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95032",
+    "name": "TREHARRIS PRIMARY CARE CENTRE",
+    "addressLines": [
+      "FOX STREET"
+    ],
+    "town": "TREHARRIS",
+    "postcode": "CF46 5HE",
+    "phone": "01443 410242",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93055",
+    "name": "TROSNANT LODGE",
+    "addressLines": [
+      "TROSNANT STREET"
+    ],
+    "town": "PONTYPOOL",
+    "postcode": "NP4 8AT",
+    "phone": "01495 762709",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93004",
+    "name": "TUDOR GATE SURGERY",
+    "addressLines": [
+      "TUDOR STREET"
+    ],
+    "town": "ABERGAVENNY",
+    "postcode": "NP7 5DL",
+    "phone": "01873 855219",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95008",
+    "name": "TY BRYN SURGERY",
+    "addressLines": [
+      "THE BRYN",
+      "TRETHOMAS"
+    ],
+    "town": "CAERPHILLY",
+    "postcode": "CF83 8GL",
+    "phone": "029 20868011",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94037",
+    "name": "TY DOCTOR ISFRYN",
+    "addressLines": [
+      "TY DOCTOR",
+      "FFORDD DEWI SANT",
+      "NEFYN"
+    ],
+    "town": "PWLLHELI",
+    "postcode": "LL53 6EG",
+    "phone": "01758 721851",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92052",
+    "name": "TY ELLI GROUP PRACTICE",
+    "addressLines": [
+      "VAUXHALL"
+    ],
+    "town": "LLANELLI",
+    "postcode": "SA15 3BD",
+    "phone": "01554 772678",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96003",
+    "name": "TY HENRY VAUGHAN",
+    "addressLines": [
+      "BRIDGE STREET"
+    ],
+    "town": "BRECON",
+    "postcode": "LD3 8AH",
+    "phone": "01874 622121",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98034",
+    "name": "TY'R FELIN SURGERY",
+    "addressLines": [
+      "CECIL ROAD",
+      "GORSEINON"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA4 4BY",
+    "phone": "01792 898844",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95019",
+    "name": "TYLORSTOWN SURGERY",
+    "addressLines": [
+      "FERNDALE ROAD",
+      "TYLORSTOWN"
+    ],
+    "town": "FERNDALE",
+    "postcode": "CF43 3HB",
+    "phone": "01443 730169",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95037",
+    "name": "TYNYCOED SURGERY",
+    "addressLines": [
+      "20 MERFIELD CLOSE",
+      "SARN",
+      "BRYNCETHIN"
+    ],
+    "town": "BRIDGEND",
+    "postcode": "CF32 9SW",
+    "phone": "01656 720334",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94007",
+    "name": "TYWYN HEALTH",
+    "addressLines": [
+      "TYWYN HEALTH CENTRE",
+      "ABERDOVEY ROAD"
+    ],
+    "town": "TYWYN",
+    "postcode": "LL36 9HL",
+    "phone": "01654 713000",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93125",
+    "name": "UNDERWOOD HEALTH CENTRE",
+    "addressLines": [
+      "81 BIRCH GROVE",
+      "LLANMARTIN"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP18 2JB",
+    "phone": "01633 413258",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98053",
+    "name": "UNIVERSITY HEALTH CENTRE",
+    "addressLines": [
+      "PENMAEN RESIDENCES",
+      "SINGLETON PARK"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA2 8PG",
+    "phone": "01792 295321",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00190",
+    "name": "UPCC AT HEALTHY PRESTATYN",
+    "addressLines": [
+      "TY NANT",
+      "NANT HALL ROAD"
+    ],
+    "town": "PRESTATYN",
+    "postcode": "LL19 9LG",
+    "phone": "03000 850001",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00192",
+    "name": "UPCC AT YSBYTY ALLTWEN",
+    "addressLines": [
+      "TREMADOG"
+    ],
+    "town": "PORTHMADOG",
+    "postcode": "LL49 9AQ",
+    "phone": "03000 852342",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00191",
+    "name": "UPCC AT YSBYTY GWYNEDD",
+    "addressLines": [
+      "UPCC AT YSBYTY GWYNEDO",
+      "PENRHOSGARNEDD"
+    ],
+    "town": "BANGOR",
+    "postcode": "LL57 2PW",
+    "phone": "03000 852342",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00193",
+    "name": "UPCC AT YSBYTY PENRHOS ST",
+    "addressLines": [
+      "YSBYTY PENRHOS STANLEY",
+      "PENRHOS BEACH ROAD"
+    ],
+    "town": "HOLYHEAD",
+    "postcode": "LL65 2QA",
+    "phone": "03000 852342",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98049",
+    "name": "UPLANDS & MUMBLES SURGERY",
+    "addressLines": [
+      "46-48 SKETTY ROAD"
+    ],
+    "town": "SWANSEA",
+    "postcode": "SA2 0LJ",
+    "phone": "01792 298554",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00065",
+    "name": "UWCHALED MEDICAL PRACTICE",
+    "addressLines": [
+      "MEDDYGFA",
+      "CERRIGYDRUDION"
+    ],
+    "town": "CORWEN",
+    "postcode": "LL21 9UB",
+    "phone": "01490 420210",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97046",
+    "name": "VALE GROUP PRACTICE",
+    "addressLines": [
+      "36-38 TYNEWYDD ROAD"
+    ],
+    "town": "BARRY",
+    "postcode": "CF62 8AZ",
+    "phone": "01446 733515",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98046",
+    "name": "VALE OF NEATH PRACTICE",
+    "addressLines": [
+      "VALE OF NEATH MEDICAL CENTRE",
+      "GLYNNEATH ROAD",
+      "GLYNNEATH"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 5AT",
+    "phone": "01639 509050",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93020",
+    "name": "VAUXHALL SURGERY",
+    "addressLines": [
+      "VAUXHALL LANE"
+    ],
+    "town": "CHEPSTOW",
+    "postcode": "NP16 5PZ",
+    "phone": "01291 636100",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W98036",
+    "name": "VICTORIA GARDENS SURGERY",
+    "addressLines": [
+      "VICTORIA GARDENS"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 1HW",
+    "phone": "01639 643786",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96016",
+    "name": "WAR MEMORIAL HEALTH CENTRE",
+    "addressLines": [
+      "BEAUFORT STREET"
+    ],
+    "town": "CRICKHOWELL",
+    "postcode": "NP8 1AG",
+    "phone": "01873 810255",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W00144",
+    "name": "WATERSIDE MEDICAL PRACTICE",
+    "addressLines": [
+      "BRITON FERRY HEALTH CENTR",
+      "BRUNEL WAY"
+    ],
+    "town": "NEATH",
+    "postcode": "SA11 2FP",
+    "phone": "01639 813272",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93059",
+    "name": "WELLSPRING MEDICAL CENTRE",
+    "addressLines": [
+      "PARK ROAD",
+      "RISCA"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP11 6BJ",
+    "phone": "01633 612438",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96010",
+    "name": "WELSHPOOL MEDICAL CENTRE",
+    "addressLines": [
+      "SALOP ROAD"
+    ],
+    "town": "WELSHPOOL",
+    "postcode": "SY21 7ER",
+    "phone": "01938 553118",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W91048",
+    "name": "WEST END MEDICAL CENTRE",
+    "addressLines": [
+      "CONWAY ROAD"
+    ],
+    "town": "COLWYN BAY",
+    "postcode": "LL29 7LS",
+    "phone": "01492 550969",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97001",
+    "name": "WEST QUAY MEDICAL CENTRE",
+    "addressLines": [
+      "HOOD ROAD"
+    ],
+    "town": "BARRY",
+    "postcode": "CF62 5QN",
+    "phone": "01446 722792",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W94622",
+    "name": "WEST SHORE SURGERY",
+    "addressLines": [
+      "9 BRYNIAU ROAD"
+    ],
+    "town": "LLANDUDNO",
+    "postcode": "LL30 2BL",
+    "phone": "01492 872915",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97052",
+    "name": "WESTERN VALE FAMILY PRACTICE",
+    "addressLines": [
+      "THE BROADSHOARD"
+    ],
+    "town": "COWBRIDGE",
+    "postcode": "CF71 7DA",
+    "phone": "01446 772383",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W93045",
+    "name": "WESTFIELD MEDICAL CENTRE",
+    "addressLines": [
+      "WESTFIELD AVENUE",
+      "MALPAS NEWPORT"
+    ],
+    "town": "NEWPORT",
+    "postcode": "NP20 6EY",
+    "phone": "01633 855521",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97025",
+    "name": "WHITCHURCH ROAD SURGERY",
+    "addressLines": [
+      "SACHVILLE AVENUE"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 3NY",
+    "phone": "02921 851190",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97294",
+    "name": "WHITCHURCH VILLAGE PRACTICE",
+    "addressLines": [
+      "WHITCHURCH MEDICAL CENTRE",
+      "PARK ROAD",
+      "WHITCHURCH"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF14 7BP",
+    "phone": "029 20629601",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97069",
+    "name": "WILLOWBROOK SURGERY",
+    "addressLines": [
+      "5 STRATHY ROAD",
+      "ST. MELLONS"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF3 0SH",
+    "phone": "029 20360555",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92042",
+    "name": "WINCH LANE SURGERY",
+    "addressLines": [
+      "WINCH LANE"
+    ],
+    "town": "HAVERFORDWEST",
+    "postcode": "SA61 1RN",
+    "phone": "01437 762333",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W97023",
+    "name": "WOODLANDS MEDICAL CENTRE",
+    "addressLines": [
+      "1 GREENFARM ROAD"
+    ],
+    "town": "CARDIFF",
+    "postcode": "CF5 4RG",
+    "phone": "029 20591444",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95012",
+    "name": "WOODLANDS SURGERY",
+    "addressLines": [
+      "WOODLAND TERRACE"
+    ],
+    "town": "MAESTEG",
+    "postcode": "CF34 0SR",
+    "phone": "01656 734203",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W96004",
+    "name": "WYLCWM STREET SURGERY",
+    "addressLines": [
+      "WYLCWM STREET"
+    ],
+    "town": "KNIGHTON",
+    "postcode": "LD7 1AD",
+    "phone": "01547 528523",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W95619",
+    "name": "YNYSYBWL SURGERY",
+    "addressLines": [
+      "THE SQUARE",
+      "ROBERT STREET",
+      "YNYSYBWL"
+    ],
+    "town": "PONTYPRIDD",
+    "postcode": "CF37 3DU",
+    "phone": "01443 790360",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  },
+  {
+    "odsCode": "W92025",
+    "name": "YSTWYTH MEDICAL GROUP",
+    "addressLines": [
+      "PARC Y LLYN RETAIL PARK",
+      "LLANBADARN FAWR"
+    ],
+    "town": "ABERYSTWYTH",
+    "postcode": "SY23 3TL",
+    "phone": "01970 613500",
+    "icbCode": "",
+    "regionCode": "W99999999",
+    "reason": "Postcode is not in an English region"
+  }
+]

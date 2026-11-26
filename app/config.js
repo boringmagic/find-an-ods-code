@@ -2,7 +2,7 @@
 
 export default {
   // Service name
-  serviceName: 'Service name goes here',
+  serviceName: 'Find ODS codes for GP surgeries',
 
   // Port to run the prototype on locally
   port: 3000

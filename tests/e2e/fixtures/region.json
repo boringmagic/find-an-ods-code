@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3,
+              53.3
+            ],
+            [
+              -2,
+              53.3
+            ],
+            [
+              -2,
+              54.3
+            ],
+            [
+              -3,
+              54.3
+            ],
+            [
+              -3,
+              53.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity": 6100002,
+        "name": "North West",
+        "reference": "E12000002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              53.5
+            ],
+            [
+              -0.5,
+              53.5
+            ],
+            [
+              -0.5,
+              54.3
+            ],
+            [
+              -1.5,
+              54.3
+            ],
+            [
+              -1.5,
+              53.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity": 6100003,
+        "name": "Yorkshire and The Humber",
+        "reference": "E12000003"
+      }
+    }
+  ]
+}

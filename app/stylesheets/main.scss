@@ -4,3 +4,31 @@
 );
 
 // Add your custom CSS/Sass styles below.
+
+// Map styles. Leaflet's own CSS is linked in app/views/layout.html
+
+.app-map {
+  height: 360px;
+  border: 1px solid $nhsuk-border-colour;
+
+  @include nhsuk-media-query($from: tablet) {
+    height: 520px;
+  }
+
+  &:focus {
+    outline: $nhsuk-focus-width solid $nhsuk-focus-colour;
+    outline-offset: 0;
+    box-shadow: 0 0 0 ($nhsuk-focus-width * 2) $nhsuk-focus-text-colour;
+  }
+}
+
+// A button that looks like a link, for "Remove" actions that change the page without going anywhere
+.app-link-button {
+  @include nhsuk-link-style-default;
+  @include nhsuk-font($size: 19);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
