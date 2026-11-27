@@ -1,63 +1,82 @@
-<!-- Use this page as the index for your project -->
-
-<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/stylesheets/main.scss -->
-
-<!-- Extends the layout from /app/views/layout.html -->
 {% extends "layout.html" %}
-<!--
-  In /app/views/layout.html you can:
-    - change the header and footer
-    - add custom CSS and JavaScript
--->
 
-<!--
-  Use this to set the page name which will appear at the
-  start of the <title> tag, followed by the service name.
-  This is often not needed on the homepage, where only the
-  service name is needed. You can also reuse this variable
-  within the <h1>, where they are the same.
--->
-{% set pageName = "" %}
+{# CONTENT: placeholder written by agent, needs content design review #}
+{% set pageName = "Choose the areas you want ODS codes for" %}
 
-<!-- For adding a breadcrumb or back link -->
-<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs and https://service-manual.nhs.uk/design-system/components/back-link -->
-{% block beforeContent %}
-{% endblock %}
-
-<!-- For adding page content -->
-<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
 {% block content %}
   <div class="nhsuk-grid-row">
     <div class="nhsuk-grid-column-two-thirds">
+      <h1 class="nhsuk-heading-l">{{ pageName }}</h1>
 
-      <!-- Add your content here -->
-      <!-- Styles and components can be found at https://service-manual.nhs.uk/design-system -->
+      {# CONTENT: placeholder written by agent, needs content design review #}
+      <p>Choose a type of area, then select one or more areas on the map. We will find the ODS codes for GP surgeries in those areas.</p>
 
-      <h1 class="nhsuk-heading-xl">
-        {{ serviceName }}
-      </h1>
+      <form method="get" action="/" novalidate data-module="app-area-type-form">
+        {% set areaTypeItems = [] %}
+        {% for type in areaTypes %}
+          {% set areaTypeItems = (areaTypeItems.push({ value: type.value, text: type.text }), areaTypeItems) %}
+        {% endfor %}
 
-      <p>Set the service name for your prototype by editing <strong>/app/config.js</strong>.</p>
+        {{ radios({
+          name: "areaType",
+          fieldset: {
+            legend: {
+              text: "What type of area do you want to choose?",
+              size: "m"
+            }
+          },
+          items: areaTypeItems,
+          value: data.areaType
+        }) }}
 
-      <p>
-        This is the index page for your prototype. You can find it at <strong>/app/views/index.html</strong>.
-      </p>
-
-      <hr>
-
-      <h2 class="nhsuk-heading-l">
-        Get started
-      </h2>
-
-      <ul class="nhsuk-list nhsuk-list--bullet">
-        <li>
-          <a href="https://prototype-kit.service-manual.nhs.uk/how-tos">NHS prototype kit guides</a> – including a tutorial
-        </li>
-        <li>
-          <a href="https://service-manual.nhs.uk/design-system">NHS digital service manual</a> – for code snippets and guidance on using NHS styles, components and patterns
-        </li>
-      </ul>
-
+        {{ button({
+          text: "Show areas",
+          classes: "nhsuk-button--secondary"
+        }) }}
+      </form>
     </div>
   </div>
+
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      {# CONTENT: placeholder written by agent, needs content design review #}
+      <p class="nhsuk-body-s nhsuk-u-margin-bottom-2" id="map-hint">Use the + and − buttons to zoom. Select an area to choose it. Select it again to remove it.</p>
+
+      {# The areas chosen before, so the map can show them again when people come back #}
+      <div id="map" class="app-map" role="region" aria-label="Map" aria-describedby="map-hint"
+        data-chosen-area-type="{{ data.chosenAreaType }}"
+        data-chosen-areas="{{ data.chosenAreas | dump }}"></div>
+
+      <p class="nhsuk-body nhsuk-u-margin-top-3" role="status" id="map-status">Choose a type of area to see areas on the map.</p>
+
+      {{ details({
+        summaryText: "Choose areas from a list instead",
+        html: '<div id="area-list"><p>There are no areas to show yet.</p></div>'
+      }) }}
+    </div>
+
+    <div class="nhsuk-grid-column-one-third">
+      <section aria-labelledby="chosen-areas-heading">
+        <h2 class="nhsuk-heading-m" id="chosen-areas-heading">Areas you have chosen</h2>
+        <div id="chosen-areas">
+          <p>You have not chosen any areas yet.</p>
+        </div>
+
+        {# The map (app/javascripts/area-map.js) fills in the hidden fields #}
+        <form method="post" action="/areas-answer" novalidate id="find-surgeries-form">
+          <input type="hidden" name="areaType" value="">
+          <input type="hidden" name="chosenAreaType" value="">
+          <div id="chosen-area-fields"></div>
+
+          {{ button({
+            text: "Find GP surgeries"
+          }) }}
+        </form>
+      </section>
+    </div>
+  </div>
+{% endblock %}
+
+{% block pageScripts %}
+  <script type="module" src="/javascripts/area-map.js"></script>
 {% endblock %}

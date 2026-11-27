@@ -1,0 +1,47 @@
+[
+  {
+    "code": "E12000001",
+    "name": "North East",
+    "practiceCount": 303
+  },
+  {
+    "code": "E12000002",
+    "name": "North West",
+    "practiceCount": 969
+  },
+  {
+    "code": "E12000003",
+    "name": "Yorkshire and The Humber",
+    "practiceCount": 586
+  },
+  {
+    "code": "E12000004",
+    "name": "East Midlands",
+    "practiceCount": 507
+  },
+  {
+    "code": "E12000005",
+    "name": "West Midlands",
+    "practiceCount": 735
+  },
+  {
+    "code": "E12000006",
+    "name": "East of England",
+    "practiceCount": 610
+  },
+  {
+    "code": "E12000007",
+    "name": "London",
+    "practiceCount": 1142
+  },
+  {
+    "code": "E12000008",
+    "name": "South East",
+    "practiceCount": 796
+  },
+  {
+    "code": "E12000009",
+    "name": "South West",
+    "practiceCount": 513
+  }
+]

@@ -1,21 +1,29 @@
 {
-  "name": "your-service-name-goes-here",
+  "name": "find-an-ods-code",
   "description": "Rapidly create HTML prototypes of NHS websites and services.",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node .",
-    "watch": "echo 'run this instead: npm start'"
+    "watch": "echo 'run this instead: npm start'",
+    "test": "node --test \"tests/unit/**/*.test.js\"",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run test:e2e",
+    "data:build": "node --max-old-space-size=4096 scripts/build-gp-practices.js",
+    "areas:download": "node scripts/download-areas.js"
   },
   "author": "https://github.com/nhsuk/",
   "license": "MIT",
   "dependencies": {
+    "leaflet": "^1.9.4",
     "nhsuk-frontend": "^10.7.2",
     "nhsuk-prototype-kit": "^8.6.0"
   },
-  "devDependencies": {
-  },
   "engines": {
     "node": "^22.16.0 || ^24.11.0 || >= 26.13.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.1",
+    "@playwright/test": "^1.65.1"
   }
 }

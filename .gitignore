@@ -68,3 +68,10 @@ coverage
 
 # ESlint cache
 .cache
+
+# Playwright
+/test-results
+/playwright-report
+
+# Source data (the NSPL is too big to commit)
+data-sources/

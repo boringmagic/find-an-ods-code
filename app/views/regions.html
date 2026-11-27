@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{# CONTENT: placeholder written by agent, needs content design review #}
+{% set pageName = "Which regions do you want to see GP surgeries in?" %}
+
+{% block beforeContent %}
+  {{ backLink({
+    href: "/",
+    text: "Back"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <form method="post" action="/regions-answer" novalidate>
+        {% set regionItems = [] %}
+        {% for region in regions %}
+          {% set regionItems = (regionItems.push({ value: region.code, text: region.name }), regionItems) %}
+        {% endfor %}
+
+        {{ checkboxes({
+          name: "regions",
+          fieldset: {
+            legend: {
+              text: pageName,
+              isPageHeading: true,
+              size: "l"
+            }
+          },
+          hint: {
+            text: "Select all that apply"
+          },
+          items: regionItems,
+          values: data.regions
+        }) }}
+
+        {{ button({
+          text: "Continue"
+        }) }}
+      </form>
+    </div>
+  </div>
+{% endblock %}
