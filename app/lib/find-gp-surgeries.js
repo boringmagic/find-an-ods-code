@@ -1,4 +1,6 @@
-// Logic for the "find GP surgeries by region" pages. Routes in app/routes.js stay thin.
+// Logic for the "find GP surgeries" pages. Routes in app/routes.js stay thin.
+
+import { getAreaType } from './area-types.js'
 
 const ENGLISH_REGION = /^E12\d{6}$/
 export const PER_PAGE = 25
@@ -52,6 +54,67 @@ export function paginationItems (page, totalPages, hrefFor) {
 
 // "East Midlands, West Midlands and London", in the same order as the list of regions
 export function listRegionNames (regions, regionCodes) {
-  const names = regions.filter(region => regionCodes.includes(region.code)).map(region => region.name)
+  return joinNames(regions.filter(region => regionCodes.includes(region.code)).map(region => region.name))
+}
+
+export function joinNames (names) {
   return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}` : names.join('')
+}
+
+// Areas chosen on the map are sent as planning.data.gov.uk entity numbers
+export function chosenAreaEntities (data) {
+  const answer = data.chosenAreas
+  const values = Array.isArray(answer) ? answer : [answer]
+  const entities = values
+    .filter(value => typeof value === 'string' && /^\d+$/.test(value))
+    .map(Number)
+  return [...new Set(entities)]
+}
+
+export function nextPageAfterChoosingAreas (data) {
+  const hasType = Boolean(getAreaType(data.chosenAreaType))
+  return hasType && chosenAreaEntities(data).length ? '/gp-surgeries-in-areas' : '/'
+}
+
+// Regions are matched by code, because the region code comes from the same postcode lookup.
+// Other areas are matched using the areas the build found each surgery's postcode inside
+// (see addAreaEntities in gp-practices.js). We do not use ward and district codes from
+// the postcode lookup, because they can be a different year from the planning.data.gov.uk
+// areas, and parishes have no code in the lookup.
+function areaContains (area, practice) {
+  if (area.type === 'region') return practice.regionCode === area.reference
+  return practice.areaEntities?.[area.type] === area.entity
+}
+
+export function practicesInAreas (practices, areas) {
+  const found = []
+  for (const practice of practices) {
+    const areaNames = areas.filter(area => areaContains(area, practice)).map(area => area.name)
+    if (areaNames.length) found.push({ ...practice, areaNames })
+  }
+  return found
+}
+
+// What the results map needs: the chosen areas as shapes, and every surgery found as a point
+export function surgeriesMapData (practices, areaFeatures) {
+  const located = practices.filter(({ latitude, longitude }) =>
+    typeof latitude === 'number' && typeof longitude === 'number')
+
+  return {
+    areas: { type: 'FeatureCollection', features: areaFeatures },
+    surgeries: {
+      type: 'FeatureCollection',
+      features: located.map(({ odsCode, name, latitude, longitude }) => ({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: [longitude, latitude] },
+        properties: { odsCode, name }
+      }))
+    },
+    notOnMap: practices.length - located.length
+  }
+}
+
+// ODS codes for people to copy, 1 on each line so they paste into a spreadsheet column
+export function odsCodesText (practices) {
+  return practices.map(practice => practice.odsCode).join('\n')
 }

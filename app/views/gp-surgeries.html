@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
 {# CONTENT: placeholder written by agent, needs content design review #}
-{% set pageName = "GP surgeries in " + regionNames %}
+{% set pageName = "GP surgeries in " + areaNames %}
 
 {% block beforeContent %}
   {{ backLink({
-    href: "/regions",
+    href: backHref,
     text: "Back"
   }) }}
 {% endblock %}
@@ -16,8 +16,51 @@
       <h1 class="nhsuk-heading-l">{{ pageName }}</h1>
 
       {# CONTENT: placeholder written by agent, needs content design review #}
-      <p class="nhsuk-body-l">We found {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}.</p>
-      <p>Showing {{ results.from }} to {{ results.to }} of {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}</p>
+      {% if total == 0 %}
+        <p class="nhsuk-body-l">We did not find any GP surgeries in {{ "this area" if areaCount == 1 else "these areas" }}.</p>
+        <p>We include a GP surgery if its postcode is inside the area.</p>
+        <p><a href="{{ backHref }}">Choose different areas</a></p>
+      {% else %}
+        <p class="nhsuk-body-l">We found {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}.</p>
+
+        {#
+          The NHS.UK frontend textarea component, written as HTML rather than with the
+          textarea() macro. The macro indents its output, which adds spaces to the start
+          of every line in the box, so the copied codes would have spaces in them.
+        #}
+        {# CONTENT: placeholder written by agent, needs content design review #}
+        <div class="nhsuk-form-group">
+          <label class="nhsuk-label nhsuk-label--m" for="ods-codes">
+            ODS codes for these {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}
+          </label>
+          <div class="nhsuk-hint" id="ods-codes-hint">
+            There is 1 code on each line. Select all the codes in the box, then copy them.
+          </div>
+          <textarea class="nhsuk-textarea" id="ods-codes" name="odsCodes" rows="8" spellcheck="false" aria-describedby="ods-codes-hint" readonly>{{ odsCodes }}</textarea>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {# The map shows the chosen areas with the surgeries on top, so people can check
+     they chose the right places. See app/javascripts/surgeries-map.js #}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-full">
+      {# CONTENT: placeholder written by agent, needs content design review #}
+      <p class="nhsuk-body-s nhsuk-u-margin-bottom-2" id="surgeries-map-hint">The shaded {{ "area is the area" if areaCount == 1 else "areas are the areas" }} you chose. Each dot is a GP surgery. Select a dot to see the surgery's name and ODS code.</p>
+      <div id="surgeries-map" class="app-map" role="region" aria-label="Map of GP surgeries"
+        aria-describedby="surgeries-map-hint" data-src="{{ mapDataUrl }}"></div>
+      <p class="nhsuk-body nhsuk-u-margin-top-3" role="status" id="surgeries-map-status">Loading the map…</p>
+    </div>
+  </div>
+
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      {% if total > 0 %}
+        {# CONTENT: placeholder written by agent, needs content design review #}
+        <h2 class="nhsuk-heading-m">List of GP surgeries</h2>
+        <p>Showing {{ results.from }} to {{ results.to }} of {{ total }} GP {{ "surgery" if total == 1 else "surgeries" }}</p>
+      {% endif %}
 
       {% for practice in results.items %}
         {% set addressHtml %}
@@ -28,7 +71,7 @@
 
         {% call card({
           heading: practice.name,
-          headingLevel: 2,
+          headingLevel: 3,
           headingClasses: "nhsuk-heading-s",
           attributes: { "data-test": "surgery" }
         }) %}
@@ -48,15 +91,21 @@
                 value: { text: practice.phone or "Not known" }
               },
               {
-                key: { text: "Region" },
-                value: { html: '<span data-test="region">' + practice.regionName + '</span>' }
+                key: { text: areaLabel },
+                value: { html: '<span data-test="area">' + (practice.areaText | escape) + '</span>' }
               }
             ]
           }) }}
         {% endcall %}
       {% endfor %}
 
-      {{ pagination(paginationParams) }}
+      {% if results.totalPages > 1 %}
+        {{ pagination(paginationParams) }}
+      {% endif %}
     </div>
   </div>
+{% endblock %}
+
+{% block pageScripts %}
+  <script type="module" src="/javascripts/surgeries-map.js"></script>
 {% endblock %}

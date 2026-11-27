@@ -67,3 +67,39 @@ export function simplifyGeometry (geometry, tolerance) {
   }
   return geometry
 }
+
+// Is a [longitude, latitude] point inside a Polygon or MultiPolygon? Uses ray casting.
+// Holes (the 2nd ring onwards) are taken out
+function pointInRing ([x, y], ring) {
+  let inside = false
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i]
+    const [xj, yj] = ring[j]
+    if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside
+  }
+  return inside
+}
+
+const pointInPolygon = (point, [outer, ...holes]) =>
+  pointInRing(point, outer) && !holes.some(hole => pointInRing(point, hole))
+
+export function pointInGeometry (point, geometry) {
+  if (geometry?.type === 'Polygon') return pointInPolygon(point, geometry.coordinates)
+  if (geometry?.type === 'MultiPolygon') return geometry.coordinates.some(polygon => pointInPolygon(point, polygon))
+  return false
+}
+
+// [west, south, east, north] around a Polygon or MultiPolygon
+export function geometryBbox (geometry) {
+  const polygons = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates
+  const bbox = [Infinity, Infinity, -Infinity, -Infinity]
+  for (const polygon of polygons) {
+    for (const [x, y] of polygon[0]) {
+      bbox[0] = Math.min(bbox[0], x)
+      bbox[1] = Math.min(bbox[1], y)
+      bbox[2] = Math.max(bbox[2], x)
+      bbox[3] = Math.max(bbox[3], y)
+    }
+  }
+  return bbox
+}

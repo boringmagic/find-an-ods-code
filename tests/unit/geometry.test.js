@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { simplifyLine, simplifyGeometry } from '../../app/lib/geometry.js'
+import { simplifyLine, simplifyGeometry, pointInGeometry } from '../../app/lib/geometry.js'
 
 test('points that lie on a straight line are removed', () => {
   const line = [[0, 0], [1, 0.00001], [2, 0], [3, 0]]
@@ -32,4 +32,30 @@ test('multipolygons are simplified part by part and coordinates are rounded', ()
   assert.equal(result.type, 'MultiPolygon')
   assert.equal(result.coordinates.length, 2)
   assert.deepEqual(result.coordinates[0][0][0], [0.12346, 0])
+})
+
+const square = (w, s, e, n) => [[w, s], [e, s], [e, n], [w, n], [w, s]]
+
+test('a point inside a polygon is found', () => {
+  assert.equal(pointInGeometry([0.5, 0.5], { type: 'Polygon', coordinates: [square(0, 0, 1, 1)] }), true)
+})
+
+test('a point outside a polygon is not found', () => {
+  assert.equal(pointInGeometry([1.5, 0.5], { type: 'Polygon', coordinates: [square(0, 0, 1, 1)] }), false)
+})
+
+test('a point in a hole is not inside the polygon', () => {
+  const withHole = { type: 'Polygon', coordinates: [square(0, 0, 4, 4), square(1, 1, 2, 2)] }
+  assert.equal(pointInGeometry([1.5, 1.5], withHole), false)
+  assert.equal(pointInGeometry([3, 3], withHole), true)
+})
+
+test('a point in any part of a multipolygon is found', () => {
+  const islands = { type: 'MultiPolygon', coordinates: [[square(0, 0, 1, 1)], [square(5, 5, 6, 6)]] }
+  assert.equal(pointInGeometry([5.5, 5.5], islands), true)
+  assert.equal(pointInGeometry([3, 3], islands), false)
+})
+
+test('no shape means no match', () => {
+  assert.equal(pointInGeometry([0, 0], null), false)
 })

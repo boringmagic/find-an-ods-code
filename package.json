@@ -9,7 +9,8 @@
     "test": "node --test \"tests/unit/**/*.test.js\"",
     "test:e2e": "playwright test",
     "test:all": "npm test && npm run test:e2e",
-    "data:build": "node scripts/build-gp-practices.js"
+    "data:build": "node --max-old-space-size=4096 scripts/build-gp-practices.js",
+    "areas:download": "node scripts/download-areas.js"
   },
   "author": "https://github.com/nhsuk/",
   "license": "MIT",

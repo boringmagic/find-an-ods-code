@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { test, expect } from '@playwright/test'
-import { expectAccessible, expectGoodStructure } from './helpers.js'
+import { expectAccessible, expectGoodStructure, useFakeAreaData } from './helpers.js'
 
 // Counts come from the generated data, so the tests stay right when the data is rebuilt
 const regions = JSON.parse(readFileSync(new URL('../../app/data/regions.json', import.meta.url), 'utf8'))
@@ -19,6 +19,10 @@ async function chooseRegions (page, ...names) {
 }
 
 test.describe('Finding GP surgeries by region', () => {
+  test.beforeEach(async ({ page }) => {
+    await useFakeAreaData(page) // no map tiles; region shapes come from fixtures
+  })
+
   test('people are asked which regions to show GP surgeries in', async ({ page }) => {
     await page.goto('/regions')
 
@@ -40,12 +44,12 @@ test.describe('Finding GP surgeries by region', () => {
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('GP surgeries in East Midlands')
     await expect(page.getByText(`We found ${countFor('East Midlands')} GP surgeries.`)).toBeVisible()
     await expect(surgeries(page)).toHaveCount(25)
-    for (const region of await surgeries(page).locator('[data-test="region"]').allInnerTexts()) {
+    for (const region of await surgeries(page).locator('[data-test="area"]').allInnerTexts()) {
       expect(region.trim()).toBe('East Midlands')
     }
 
     const first = surgeries(page).first()
-    await expect(first.getByRole('heading', { level: 2 })).not.toBeEmpty()
+    await expect(first.getByRole('heading', { level: 3 })).not.toBeEmpty()
     await expect(first.getByText('ODS code')).toBeVisible()
     await expect(first.getByText('Address')).toBeVisible()
     await expect(first.getByText('Phone')).toBeVisible()
@@ -60,7 +64,7 @@ test.describe('Finding GP surgeries by region', () => {
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('GP surgeries in East Midlands and West Midlands')
     await expect(page.getByText(`We found ${countFor('East Midlands', 'West Midlands')} GP surgeries.`)).toBeVisible()
 
-    const shown = new Set((await surgeries(page).locator('[data-test="region"]').allInnerTexts()).map(text => text.trim()))
+    const shown = new Set((await surgeries(page).locator('[data-test="area"]').allInnerTexts()).map(text => text.trim()))
     for (const region of shown) {
       expect(['East Midlands', 'West Midlands']).toContain(region)
     }
@@ -122,6 +126,31 @@ test.describe('Finding GP surgeries by region', () => {
 
     await page.getByRole('link', { name: 'Page 1', exact: true }).click()
     await expect(page.getByText(`Showing 1 to 25 of ${total} GP surgeries`)).toBeVisible()
+  })
+
+  test('the surgeries are shown on a map, on top of the regions chosen', async ({ page }) => {
+    await chooseRegions(page, 'East Midlands')
+
+    const map = page.getByRole('region', { name: 'Map of GP surgeries' })
+    await expect(map).toBeVisible()
+    // every surgery found is on the map, not just the ones on this page of the list
+    await expect(map.locator('[data-surgery]')).toHaveCount(countFor('East Midlands'))
+    await expect(map.locator('[data-area-name="East Midlands"]')).toHaveCount(1)
+    await expect(page.getByRole('status')).toHaveText(`Showing ${countFor('East Midlands')} GP surgeries on the map.`)
+    await expectAccessible(page)
+  })
+
+  test('people can copy the ODS codes of every surgery found from a text box', async ({ page }) => {
+    const practices = JSON.parse(readFileSync(new URL('../../app/data/gp-practices.json', import.meta.url), 'utf8'))
+    const expected = practices.filter(p => ['East Midlands', 'West Midlands'].includes(p.regionName)).map(p => p.odsCode)
+    await chooseRegions(page, 'East Midlands', 'West Midlands')
+
+    const codes = page.getByRole('textbox', { name: `ODS codes for these ${expected.length} GP surgeries` })
+    await expect(codes).not.toBeEditable()
+    // all codes, not just the ones on this page of the list
+    expect((await codes.inputValue()).split('\n').sort()).toEqual(expected.sort())
+    await expectAccessible(page)
+    await expectGoodStructure(page)
   })
 
   test('surgeries on different pages are not repeated', async ({ page }) => {

@@ -5,6 +5,9 @@ const chosenAreas = page => page.getByRole('region', { name: 'Areas you have cho
 const areasOnMap = page => page.getByRole('group', { name: 'Areas on the map' })
 const chosenArea = (page, name) => chosenAreas(page).getByRole('term').filter({ hasText: name })
 const mapShape = (page, name) => page.locator(`.leaflet-overlay-pane [data-area-name="${name}"]`)
+// Real shapes are irregular, so the middle of the box around one can be outside it.
+// Send the click to the shape itself instead
+const selectOnMap = (page, name) => mapShape(page, name).dispatchEvent('click')
 
 async function openAreaList (page) {
   await page.getByText('Choose areas from a list instead').click()
@@ -40,7 +43,7 @@ test.describe('Choosing areas on a map', () => {
     await expect(mapShape(page, 'North West')).toBeVisible()
     await expect(mapShape(page, 'Yorkshire and The Humber')).toBeVisible()
     await expect(areasOnMap(page).getByRole('checkbox', { name: 'North West' })).not.toBeChecked()
-    await expect(page.getByRole('status')).toContainText('Showing 2 regions')
+    await expect(page.getByRole('status')).toContainText('Showing 9 regions')
     expect(requests[0].searchParams.get('type')).toBe('region')
 
     await expectAccessible(page)
@@ -53,7 +56,7 @@ test.describe('Choosing areas on a map', () => {
     await showAreas(page, 'Region')
     await openAreaList(page)
 
-    await mapShape(page, 'North West').click()
+    await selectOnMap(page, 'North West')
 
     await expect(chosenArea(page, 'North West')).toBeVisible()
     await expect(chosenAreas(page)).toContainText('E12000002')
@@ -67,8 +70,8 @@ test.describe('Choosing areas on a map', () => {
     await page.goto('/')
     await showAreas(page, 'Region')
 
-    await mapShape(page, 'North West').click()
-    await mapShape(page, 'North West').click()
+    await selectOnMap(page, 'North West')
+    await selectOnMap(page, 'North West')
 
     await expect(chosenAreas(page)).toContainText('You have not chosen any areas yet.')
     await expect(mapShape(page, 'North West')).toHaveAttribute('data-selected', 'false')
@@ -118,13 +121,13 @@ test.describe('Choosing areas on a map', () => {
 
     await expect(page.getByRole('radio', { name: 'Ward', exact: true })).toBeChecked()
     await expect(mapShape(page, 'Fallowfield')).toBeVisible()
-    await expect(page.getByRole('status')).toContainText('Showing 2 wards')
+    await expect(page.getByRole('status')).toContainText(/Showing \d+ wards/)
 
     const bbox = requests.at(-1).searchParams.get('bbox').split(',').map(Number)
     expect(bbox[0]).toBeLessThan(-2.22)
     expect(bbox[2]).toBeGreaterThan(-2.22)
 
-    await mapShape(page, 'Withington').click()
+    await selectOnMap(page, 'Withington')
     await expect(chosenArea(page, 'Withington')).toBeVisible()
     await expectAccessible(page)
   })

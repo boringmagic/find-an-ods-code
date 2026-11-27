@@ -4,10 +4,11 @@
 // Sources:
 // - ODS "GP Practices (Prescribing Cost Centres)" report (epraccur.csv)
 // - ONS National Statistics Postcode Lookup (NSPL)
-// - planning.data.gov.uk region dataset, for region names
+// - planning.data.gov.uk area shapes, for region names and which areas each practice is in
 
 import { createReadStream } from 'node:fs'
 import { createInterface } from 'node:readline'
+import { findAreaContaining } from './area-store.js'
 
 const GP_PRACTICE_ROLE = 'RO76'
 const ENGLISH_REGION = /^E12\d{6}$/
@@ -94,9 +95,8 @@ export async function readPractices (path) {
 const NSPL_COLUMNS = {
   postcode: /^pcds$/,
   region: /^rgn\d{2}cd$/,
-  localAuthorityDistrict: /^lad\d{2}cd$/,
-  ward: /^wd\d{2}cd$/,
-  builtUpArea: /^bua\d{2}cd$/
+  latitude: /^lat$/,
+  longitude: /^long$/
 }
 const REQUIRED_NSPL_COLUMNS = ['postcode', 'region']
 
@@ -111,6 +111,8 @@ export function findNsplColumns (header) {
   }
   return columns
 }
+
+const toCoordinate = text => (text.trim() === '' || Number.isNaN(Number(text)) ? null : Number(text))
 
 // Stream the NSPL and keep only the postcodes in `wantedPostcodes` (normalised)
 export async function readPostcodeLookup (path, wantedPostcodes) {
@@ -129,23 +131,18 @@ export async function readPostcodeLookup (path, wantedPostcodes) {
     const value = key => (index[key] === undefined ? '' : fields[index[key]] ?? '')
     lookup.set(postcode, {
       regionCode: value('region'),
-      ladCode: value('localAuthorityDistrict'),
-      wardCode: value('ward'),
-      builtUpAreaCode: value('builtUpArea')
+      latitude: toCoordinate(value('latitude')),
+      longitude: toCoordinate(value('longitude'))
     })
   }
   return { lookup, columns }
 }
 
-// Region names from planning.data.gov.uk region.csv (reference and name columns)
-export function readRegionNames (text) {
-  const [header, ...rows] = parseCsv(text)
-  const reference = header.indexOf('reference')
-  const name = header.indexOf('name')
-  const endDate = header.indexOf('end-date')
-  return new Map(rows
-    .filter(row => ENGLISH_REGION.test(row[reference]) && !(endDate >= 0 && row[endDate]))
-    .map(row => [row[reference], row[name]])
+// Region names and codes from the planning.data.gov.uk region shapes (already slimmed)
+export function regionNamesFromAreas (collection) {
+  return new Map(collection.features
+    .map(({ properties }) => [properties.reference, properties.name])
+    .filter(([code]) => ENGLISH_REGION.test(code))
     .sort(([a], [b]) => a.localeCompare(b)))
 }
 
@@ -166,9 +163,8 @@ export function assignAreas (practices, lookup, regionNames) {
         ...practice,
         regionCode: areas.regionCode,
         regionName: regionNames.get(areas.regionCode),
-        ladCode: areas.ladCode,
-        wardCode: areas.wardCode,
-        builtUpAreaCode: areas.builtUpAreaCode
+        latitude: areas.latitude,
+        longitude: areas.longitude
       })
     }
   }
@@ -182,4 +178,19 @@ export function summariseRegions (regionNames, practices) {
     name,
     practiceCount: practices.filter(practice => practice.regionCode === code).length
   }))
+}
+
+// Find which area of each type each practice's postcode is inside, using the full shapes.
+// `indexes` is { areaType: indexAreas(...) }. Regions are left out: they use the region code
+export function addAreaEntities (practices, indexes) {
+  return practices.map(practice => {
+    const { latitude, longitude } = practice
+    const located = typeof latitude === 'number' && typeof longitude === 'number'
+    const areaEntities = {}
+    for (const [type, index] of Object.entries(indexes)) {
+      const area = located ? findAreaContaining(index, [longitude, latitude]) : null
+      areaEntities[type] = area ? area.properties.entity : null
+    }
+    return { ...practice, areaEntities }
+  })
 }

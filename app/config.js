@@ -5,5 +5,6 @@ export default {
   serviceName: 'Find ODS codes for GP surgeries',
 
   // Port to run the prototype on locally
-  port: 3000
+  // The automated tests set PROTOTYPE_PORT so they can run alongside your prototype
+  port: Number(process.env.PROTOTYPE_PORT) || 3000
 }

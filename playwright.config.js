@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test'
 
-const PORT = process.env.PORT || 3000
+// Tests run their own prototype on a different port from the one you use
+const PORT = process.env.TEST_PORT || 3100
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -8,7 +9,10 @@ export default defineConfig({
   webServer: {
     command: 'npm start',
     url: `http://localhost:${PORT}`,
-    reuseExistingServer: !process.env.CI
+    reuseExistingServer: !process.env.CI,
+    env: {
+      PROTOTYPE_PORT: String(PORT)
+    }
   },
   projects: [
     // Most NHS users are on phones, so test mobile first

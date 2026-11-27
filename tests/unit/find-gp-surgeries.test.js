@@ -6,7 +6,13 @@ import {
   filterPracticesByRegions,
   paginate,
   paginationItems,
-  listRegionNames
+  listRegionNames,
+  joinNames,
+  chosenAreaEntities,
+  nextPageAfterChoosingAreas,
+  practicesInAreas,
+  surgeriesMapData,
+  odsCodesText
 } from '../../app/lib/find-gp-surgeries.js'
 
 const practices = [
@@ -117,5 +123,118 @@ describe('naming the regions people chose', () => {
     assert.equal(listRegionNames(regions, ['E12000004']), 'East Midlands')
     assert.equal(listRegionNames(regions, ['E12000005', 'E12000004']), 'East Midlands and West Midlands')
     assert.equal(listRegionNames(regions, ['E12000007', 'E12000004', 'E12000005']), 'East Midlands, West Midlands and London')
+  })
+})
+
+describe('joining names', () => {
+  test('names are joined with commas and "and"', () => {
+    assert.equal(joinNames(['Leeds']), 'Leeds')
+    assert.equal(joinNames(['Leeds', 'Bradford']), 'Leeds and Bradford')
+    assert.equal(joinNames(['Leeds', 'Bradford', 'York']), 'Leeds, Bradford and York')
+  })
+})
+
+describe('the areas people chose on the map', () => {
+  test('areas come back from the form as entity numbers, 1 as text or several as a list', () => {
+    assert.deepEqual(chosenAreaEntities({ chosenAreas: '8600050' }), [8600050])
+    assert.deepEqual(chosenAreaEntities({ chosenAreas: ['8600050', '8600051'] }), [8600050, 8600051])
+  })
+
+  test('anything that is not an entity number is ignored, and so are repeats', () => {
+    assert.deepEqual(chosenAreaEntities({ chosenAreas: ['8600050', 'nonsense', '', '8600050', '-4'] }), [8600050])
+    assert.deepEqual(chosenAreaEntities({}), [])
+  })
+
+  test('people who chose areas go to the GP surgeries in those areas', () => {
+    assert.equal(nextPageAfterChoosingAreas({ chosenAreaType: 'ward', chosenAreas: ['800101'] }), '/gp-surgeries-in-areas')
+  })
+
+  test('people who chose no areas, or no known type of area, go back to the map', () => {
+    assert.equal(nextPageAfterChoosingAreas({ chosenAreaType: 'ward' }), '/')
+    assert.equal(nextPageAfterChoosingAreas({ chosenAreaType: 'country', chosenAreas: ['1'] }), '/')
+  })
+})
+
+describe('finding the GP surgeries in the areas people chose', () => {
+  // The build works out which areas each surgery's postcode is in (see addAreaEntities)
+  const practices = [
+    { odsCode: 'P1', name: 'IN WEST', regionCode: 'E12000004', areaEntities: { ward: 1, parish: 7 } },
+    { odsCode: 'P2', name: 'ALSO IN WEST', regionCode: 'E12000004', areaEntities: { ward: 1, parish: null } },
+    { odsCode: 'P3', name: 'IN EAST', regionCode: 'E12000005', areaEntities: { ward: 2, parish: null } },
+    { odsCode: 'P4', name: 'ELSEWHERE', regionCode: 'E12000005', areaEntities: { ward: 3, parish: null } },
+    { odsCode: 'P5', name: 'NO LOCATION', regionCode: 'E12000004', areaEntities: { ward: null, parish: null } }
+  ]
+  const west = { type: 'ward', entity: 1, name: 'West ward', reference: 'E05000001' }
+  const east = { type: 'ward', entity: 2, name: 'East ward', reference: 'E05000002' }
+
+  test('surgeries in an area are found', () => {
+    assert.deepEqual(practicesInAreas(practices, [west]).map(p => p.odsCode), ['P1', 'P2'])
+  })
+
+  test('several areas return surgeries in any of them, saying which area they are in', () => {
+    assert.deepEqual(practicesInAreas(practices, [west, east]).map(p => [p.odsCode, p.areaNames]), [
+      ['P1', ['West ward']],
+      ['P2', ['West ward']],
+      ['P3', ['East ward']]
+    ])
+  })
+
+  test('areas are matched within their own type only', () => {
+    const parish = { type: 'parish', entity: 7, name: 'Parish 7', reference: 'E04000007' }
+    const sameNumberDifferentType = { type: 'parish', entity: 1, name: 'Parish 1', reference: 'E04000001' }
+    assert.deepEqual(practicesInAreas(practices, [parish]).map(p => p.odsCode), ['P1'])
+    assert.deepEqual(practicesInAreas(practices, [sameNumberDifferentType]), [])
+  })
+
+  test('regions are matched by region code, so they agree with the list of regions', () => {
+    const eastMidlands = { type: 'region', entity: 30100003, name: 'East Midlands', reference: 'E12000004' }
+    assert.deepEqual(practicesInAreas(practices, [eastMidlands]).map(p => p.odsCode), ['P1', 'P2', 'P5'])
+  })
+
+  test('no areas returns no surgeries', () => {
+    assert.deepEqual(practicesInAreas(practices, []), [])
+  })
+})
+
+describe('map data for the results page', () => {
+  const area = {
+    type: 'Feature',
+    geometry: { type: 'Polygon', coordinates: [[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]] },
+    properties: { entity: 1, name: 'West ward', reference: 'E05000001' }
+  }
+  const found = [
+    { odsCode: 'P1', name: 'IN WEST', latitude: 0.5, longitude: 0.25, phone: '01234 567890' },
+    { odsCode: 'P5', name: 'NO LOCATION', latitude: null, longitude: null }
+  ]
+
+  test('chosen areas are kept as shapes, to go beneath the surgeries', () => {
+    const { areas } = surgeriesMapData(found, [area])
+    assert.equal(areas.type, 'FeatureCollection')
+    assert.deepEqual(areas.features, [area])
+  })
+
+  test('each surgery becomes a point with its name and ODS code', () => {
+    const { surgeries } = surgeriesMapData(found, [area])
+    assert.deepEqual(surgeries.features[0], {
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [0.25, 0.5] },
+      properties: { odsCode: 'P1', name: 'IN WEST' }
+    })
+  })
+
+  test('surgeries without a location are left off the map and counted', () => {
+    const { surgeries, notOnMap } = surgeriesMapData(found, [area])
+    assert.equal(surgeries.features.length, 1)
+    assert.equal(notOnMap, 1)
+  })
+})
+
+describe('the ODS codes to copy', () => {
+  test('codes are listed 1 on each line, in the same order as the surgeries', () => {
+    assert.equal(odsCodesText([{ odsCode: 'C85003' }, { odsCode: 'A00001' }]), 'C85003\nA00001')
+  })
+
+  test('no surgeries means no codes', () => {
+    assert.equal(odsCodesText([]), '')
   })
 })

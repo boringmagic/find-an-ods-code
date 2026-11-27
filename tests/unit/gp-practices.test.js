@@ -10,10 +10,12 @@ import {
   findNsplColumns,
   readPractices,
   readPostcodeLookup,
-  readRegionNames,
+  regionNamesFromAreas,
   assignAreas,
+  addAreaEntities,
   summariseRegions
 } from '../../app/lib/gp-practices.js'
+import { indexAreas } from '../../app/lib/area-store.js'
 
 const fixture = name => new URL(`../fixtures/${name}`, import.meta.url)
 
@@ -106,11 +108,10 @@ describe('reading the postcode lookup (NSPL)', () => {
     assert.deepEqual(findNsplColumns(parseCsvLine(header)), {
       postcode: 'pcds',
       region: 'rgn26cd',
-      localAuthorityDistrict: 'lad26cd',
-      ward: 'wd26cd',
-      builtUpArea: 'bua24cd'
+      latitude: 'lat',
+      longitude: 'long'
     })
-    assert.equal(findNsplColumns(['pcds', 'rgn27cd', 'lad27cd', 'wd27cd', 'bua25cd']).region, 'rgn27cd')
+    assert.equal(findNsplColumns(['pcds', 'rgn27cd', 'lat', 'long']).region, 'rgn27cd')
   })
 
   test('a lookup without a postcode or region column is rejected', () => {
@@ -123,18 +124,34 @@ describe('reading the postcode lookup (NSPL)', () => {
     assert.deepEqual([...lookup.keys()].sort(), ['B11AA', 'NG11AA'])
     assert.deepEqual(lookup.get('NG11AA'), {
       regionCode: 'E12000004',
-      ladCode: 'E06000018',
-      wardCode: 'E05012345',
-      builtUpAreaCode: 'E63000001'
+      latitude: 52.95,
+      longitude: -1.15
     })
   })
 })
+
+test('a postcode with no location gets null, not 0', async () => {
+  const { lookup } = await readPostcodeLookup(fixture('nspl.csv'), new Set(['LS11AA']))
+  assert.equal(lookup.get('LS11AA').latitude, null)
+})
+
+// Region names come from the planning.data.gov.uk region shapes, already slimmed by the build
+const REGION_NAMES = ['North East', 'North West', 'Yorkshire and The Humber', 'East Midlands', 'West Midlands',
+  'East of England', 'London', 'South East', 'South West']
+const regionAreas = {
+  type: 'FeatureCollection',
+  features: [...REGION_NAMES.entries()].reverse().map(([i, name]) => ({
+    type: 'Feature',
+    geometry: null,
+    properties: { entity: 6100000 + i, name, reference: `E1200000${i + 1}` }
+  }))
+}
 
 describe('giving practices a region', async () => {
   const { practices } = await readPractices(fixture('epraccur-no-header.csv'))
   const wanted = new Set(practices.map(p => normalisePostcode(p.postcode)))
   const { lookup } = await readPostcodeLookup(fixture('nspl.csv'), wanted)
-  const regionNames = readRegionNames(readFileSync(fixture('region.csv'), 'utf8'))
+  const regionNames = regionNamesFromAreas(regionAreas)
   const { matched, unmatched } = assignAreas(practices, lookup, regionNames)
   const byCode = code => matched.find(p => p.odsCode === code)
 
@@ -166,9 +183,8 @@ describe('giving practices a region', async () => {
       icbCode: 'QHM',
       regionCode: 'E12000001',
       regionName: 'North East',
-      ladCode: 'E08000021',
-      wardCode: 'E05001234',
-      builtUpAreaCode: 'E63000003'
+      latitude: 54.97,
+      longitude: -1.61
     })
   })
 
@@ -195,5 +211,51 @@ describe('giving practices a region', async () => {
     assert.deepEqual(regions[3], { code: 'E12000004', name: 'East Midlands', practiceCount: 2 })
     assert.equal(regions[4].practiceCount, 2)
     assert.equal(regions[1].practiceCount, 0)
+  })
+})
+
+describe('finding which areas each practice is in', () => {
+  const square = (w, s, e, n) => ({ type: 'Polygon', coordinates: [[[w, s], [e, s], [e, n], [w, n], [w, s]]] })
+  const areas = (...features) => indexAreas({ type: 'FeatureCollection', features })
+  const area = (entity, geometry) => ({ type: 'Feature', geometry, properties: { entity, name: `Area ${entity}`, reference: `E0${entity}` } })
+
+  const indexes = {
+    'local-authority-district': areas(area(8600001, square(0, 0, 10, 10))),
+    ward: areas(area(800101, square(0, 0, 1, 1)), area(800102, square(1, 0, 2, 1))),
+    parish: areas(area(130000001, square(0, 0, 1, 1)))
+  }
+  const practices = [
+    { odsCode: 'P1', latitude: 0.5, longitude: 1.5 },
+    { odsCode: 'P2', latitude: 0.5, longitude: 0.5 },
+    { odsCode: 'P3', latitude: null, longitude: null }
+  ]
+  const [inWithington, inFallowfield, noLocation] = addAreaEntities(practices, indexes)
+
+  test('each practice gets the entity number of the area its postcode is in, for each type', () => {
+    assert.deepEqual(inFallowfield.areaEntities, {
+      'local-authority-district': 8600001,
+      ward: 800101,
+      parish: 130000001
+    })
+  })
+
+  test('a practice outside every area of a type gets null for that type', () => {
+    assert.deepEqual(inWithington.areaEntities, {
+      'local-authority-district': 8600001,
+      ward: 800102,
+      parish: null
+    })
+  })
+
+  test('a practice with no location is in no areas', () => {
+    assert.deepEqual(noLocation.areaEntities, {
+      'local-authority-district': null,
+      ward: null,
+      parish: null
+    })
+  })
+
+  test('the other details are kept', () => {
+    assert.equal(inFallowfield.odsCode, 'P2')
   })
 })

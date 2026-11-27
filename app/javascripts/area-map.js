@@ -1,5 +1,5 @@
 // The map on the home page: shows areas of the chosen type and lets people select them.
-// Areas come from our own /api/areas route (see app/routes.js), which gets them from planning.data.gov.uk.
+// Areas come from our own /api/areas route (see app/routes.js), which reads them from app/data/areas/.
 
 import L from 'leaflet'
 import { getAreaType } from '../lib/area-types.js'
@@ -15,6 +15,8 @@ const form = document.querySelector('[data-module="app-area-type-form"]')
 const status = document.getElementById('map-status')
 const areaList = document.getElementById('area-list')
 const chosenAreas = document.getElementById('chosen-areas')
+const findForm = document.getElementById('find-surgeries-form')
+const chosenAreaFields = document.getElementById('chosen-area-fields')
 
 let areaType = null
 let loaded = new Map() // entity number → GeoJSON feature, for the areas loaded now
@@ -193,7 +195,18 @@ function renderAreaList () {
     </div>`
 }
 
+// Fill in the hidden fields that send the chosen areas to /areas-answer.
+// "_unchecked" tells the kit to forget areas chosen before, if none are chosen now
+function updateFindForm () {
+  findForm.elements.areaType.value = areaType?.value ?? ''
+  findForm.elements.chosenAreaType.value = areaType?.value ?? ''
+  chosenAreaFields.innerHTML = ['_unchecked', ...chosen.keys()]
+    .map(entity => `<input type="hidden" name="chosenAreas" value="${entity}">`)
+    .join('')
+}
+
 function renderChosenAreas () {
+  updateFindForm()
   if (!chosen.size) {
     chosenAreas.innerHTML = '<p>You have not chosen any areas yet.</p>'
     return
@@ -255,6 +268,37 @@ map.on('moveend', () => {
   }
 })
 
+// Show the areas people chose before, when they come back from the list of GP surgeries
+async function restoreChosenAreas (type) {
+  let entities = []
+  try {
+    entities = [JSON.parse(mapElement.dataset.chosenAreas || 'null')].flat()
+      .filter(entity => /^\d+$/.test(entity))
+  } catch {}
+  if (mapElement.dataset.chosenAreaType !== type.value || !entities.length) return
+
+  const query = new URLSearchParams({ type: type.value })
+  entities.forEach(entity => query.append('entity', entity))
+  try {
+    const response = await fetch(`/api/areas?${query}`)
+    if (!response.ok) throw new Error(`Areas request failed with ${response.status}`)
+    const { features } = await response.json()
+    if (type !== areaType) return
+    features.forEach(feature => chosen.set(feature.properties.entity, feature))
+    draw()
+    if (!hasViewInUrl && features.length) {
+      map.fitBounds(L.geoJSON({ type: 'FeatureCollection', features }).getBounds(), { maxZoom: 14 })
+    }
+  } catch (error) {
+    console.error(error)
+  }
+}
+
 // Show the type of area people chose before, if there is one
 const startingType = checkedAreaType()
-if (startingType) showAreaType(startingType)
+if (startingType) {
+  showAreaType(startingType)
+  restoreChosenAreas(startingType)
+} else {
+  updateFindForm()
+}

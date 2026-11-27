@@ -1,4 +1,3 @@
-import { readFileSync } from 'node:fs'
 import { expect } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
 
@@ -28,21 +27,19 @@ function escapeRegExp (text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-const fixture = name => readFileSync(new URL(`./fixtures/${name}.json`, import.meta.url), 'utf8')
-
 /**
- * Stops tests calling the real map tile and planning data services.
+ * Stops tests loading map tiles from OpenStreetMap. Area shapes come from
+ * the prototype's own files in app/data/areas/.
  * Returns the list of area requests the page made, so tests can check them.
  */
 export async function useFakeAreaData (page, { fail = false } = {}) {
   const requests = []
   await page.route(/tile\.openstreetmap\.org/, route => route.abort())
-  await page.route('**/api/areas?**', route => {
-    const url = new URL(route.request().url())
-    requests.push(url)
-    if (fail) return route.fulfill({ status: 502, json: { error: 'Bad gateway' } })
-    const type = url.searchParams.get('type')
-    return route.fulfill({ contentType: 'application/json', body: fixture(type) })
+  page.on('request', request => {
+    if (request.url().includes('/api/areas?')) requests.push(new URL(request.url()))
   })
+  if (fail) {
+    await page.route('**/api/areas?**', route => route.fulfill({ status: 502, json: { error: 'Bad gateway' } }))
+  }
   return requests
 }
